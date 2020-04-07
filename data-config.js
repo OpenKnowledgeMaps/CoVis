@@ -20,10 +20,12 @@ var data_config = {
     show_list:true,
     is_force_papers: true,
     is_title_clickable: false,
+    show_infolink: false,
     show_infolink_areas: false,
 	
     show_context: true,
     create_title_from_context: false,
+    show_context_timestamp: true,
     
     scale_toolbar: false,
     
@@ -78,6 +80,7 @@ var data_config = {
             most_relevant_tooltip: 'To determine the most relevant documents, we use the relevance ranking provided by the source - either BASE or PubMed. Both sources compute the text similarity between your query and the article metadata to establish the relevance ranking. Please consult the FAQ for more information.',
             source_label: 'Source',
             documenttypes_label: 'Document types',
+            timestamp_label: 'Last updated',
             documenttypes_tooltip: 'The following document types were taken into consideration in the creation of this map (not all of them may appear in the map):',
             default_area: "No area",
             default_author: "",
