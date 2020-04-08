@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <?php
 include 'config.php';
-include 'head_covis.php'
 ?>
 <html>
 
 <head>
+    <?php include 'head_covis.php' ?>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>CoVis</title>
     
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>

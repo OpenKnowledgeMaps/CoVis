@@ -1,0 +1,116 @@
+* {
+    box-sizing: content-box;
+    transition: 0.03s ease-in;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    width:100%; 
+    display: table;
+}
+body {
+    font-family: 'Lato', sans-serif; 
+    padding: 0px;
+    width:100%; 
+    color: #333;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    height: 100%;
+    margin: 0;
+    display: table;
+}
+
+a {
+    color: #1e6662;
+    text-decoration: underline;
+}
+
+.about {
+    background: url(img/example.png) no-repeat right, linear-gradient(rgb(30, 102, 98), rgb(44, 161, 181));
+    background-size: 50%;
+    display: table;
+    height: 100%;
+    background-color: black;
+}
+
+.bg-image {
+    width: 100%;
+    background-image: url(img/example.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: table;
+    height: 100%;
+}
+
+.about-text {
+    color: white;
+    padding: 100px 0px 100px 100px; 
+    max-width: 60%;
+}
+
+.headline {
+    font-weight: 300;
+}
+
+.credits {
+    padding-left: 20px; 
+    /*padding-bottom: 20px;*/ 
+    display: table-cell;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.credits2 {
+    text-transform: none; 
+    color: #f7f7f7; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: white;
+    display: table-row; height: 0;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.partner-logo2 {
+    max-height: 70px;
+    margin-right: 20px;
+}
+
+.search-btn {
+    font-family: 'Lato', sans-serif;
+    max-width: 300px;
+    border: 0px; 
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 20px 0;
+    border-radius: 17px; 
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    font-size: 24px;
+    background-color: transparent;
+    /*background-image: linear-gradient(rgb(44, 161, 181), rgb(44, 161, 181));*/ 
+    color: white; width:100%; padding: 10px 3px;
+    border: 3px solid white;
+}
+
+.search-btn:hover {
+    background-image: linear-gradient(rgb(30, 102, 98), rgb(30, 102, 98));
+    border: 3px solid #1e6662;
+    cursor: pointer;
+}
+
+.search-btn a {
+    color: white;
+    text-decoration: none;
+}
