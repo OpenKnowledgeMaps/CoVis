@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <?php
 include 'config.php';
+if($EXTERNAL_COMPONENTS) {
+    include $EXTERNAL_COMPONENTS_PATH . "head_standard.php";
+}
 ?>
 <html>
 
