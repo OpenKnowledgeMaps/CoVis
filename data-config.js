@@ -3,10 +3,10 @@ var data_config = {
     mode: "local_files",
     service_name: "CoVis",
     
-    bubble_min_scale: 1.2,
+    bubble_min_scale: 1.1,
     bubble_max_scale: 1.1,
     
-    paper_min_scale: 0.8,
+    paper_min_scale: 1,
 
     title: "Knowledge Map of <b>Covid-19 research</b>",
     input_format: "json",
@@ -60,7 +60,7 @@ var data_config = {
             intro_icon: "&#xf05a;",
             relevance: "relevance",
             readers: "citations",
-            year: "year",
+            year: "date",
             authors: "authors",
             title: "title",
             area: "Area",
