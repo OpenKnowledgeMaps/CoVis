@@ -60,7 +60,7 @@ var data_config = {
             intro_icon: "&#xf05a;",
             relevance: "relevance",
             readers: "citations",
-            year: "year",
+            year: "date",
             authors: "authors",
             title: "title",
             area: "Area",
