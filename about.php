@@ -15,7 +15,7 @@ include 'config.php';
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     </head>
 
-    <body class="about">
+    <body class="about generalpage">
         <header>
             <?php include('menu.php'); ?>
         </header>
@@ -24,10 +24,14 @@ include 'config.php';
 
             <h2 class="headline" style="font-size: 40px; max-width: 750px; font-weight: 700;">Collaborative and visual knowledge base for Covid-19 research</h2>
             <p style="max-width: 750px; font-size: 24px; font-weight: 300;">
-                In the current Covid-19 pandemic, many researchers seek valid knowledge as well as a way to stay on top of that knowledge. To support them, Open Knowledge Maps and ReFigure have launched CoVis. CoVis is constantly evolving thanks to the collective editing of subject-matter experts.
+                In the current Covid-19 pandemic, many researchers seek valid knowledge as well as a way to stay on top of that knowledge. To support them, Open Knowledge Maps and ReFigure have launched CoVis. CoVis provides a curated knowledge map on Covid-19 research and is constantly evolving thanks to the collective editing of subject-matter experts.
             </p>
             <p class="search-btn">
                 <a href="index">Covid-19 research</a>
+            </p>
+            
+            <p style="max-width: 750px; font-size: 24px; font-weight: 300;">
+                <a href="contact-us" style='color: white;'>Get in touch if you'd like to contribute</a>
             </p>
         </div>
         <?php include('footer.php') ?>

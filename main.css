@@ -28,18 +28,10 @@ a {
 
 .about {
     background: url(img/example.png) no-repeat right, linear-gradient(rgb(30, 102, 98), rgb(44, 161, 181));
-    background-size: 50%;
-    display: table;
-    height: 100%;
-    background-color: black;
+    background-size: 45%;
 }
 
-.bg-image {
-    width: 100%;
-    background-image: url(img/example.png);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: right;
+.generalpage {
     display: table;
     height: 100%;
 }
@@ -95,7 +87,6 @@ footer a {
 .search-btn {
     font-family: 'Lato', sans-serif;
     max-width: 300px;
-    border: 0px; 
     text-align: center;
     margin: 20px 0 0;
     padding: 20px 0;
@@ -118,4 +109,68 @@ footer a {
 .search-btn a {
     color: white;
     text-decoration: none;
+}
+
+.contact-btn {
+    font-family: 'Lato', sans-serif;
+    max-width: 300px;
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 20px 0;
+    border-radius: 17px; 
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    font-size: 24px;
+    background-image: linear-gradient(rgb(44, 161, 181), rgb(44, 161, 181));
+    /*background-image: linear-gradient(rgb(44, 161, 181), rgb(44, 161, 181));*/ 
+    color: white; width:100%; padding: 10px 3px;
+    border: 3px solid transparent;
+}
+
+.contact-btn:hover {
+    background-image: linear-gradient(rgb(30, 102, 98), rgb(30, 102, 98));
+    border: 3px solid #1e6662;
+    cursor: pointer;
+}
+
+.contact-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+/*FAQs page*/
+.question {
+    padding: 40px 0px 20px; 
+    margin: 0px;
+    font-size: 24px;
+    line-height: 150%;;
+}
+
+.paragraph-style li {
+    margin-left: 40px;
+}
+
+.page-section {
+    max-width:750px; 
+    margin: 0px auto 40px; 
+    font-size: 16px;
+}
+
+.page-headline {
+    font-family: 'Lato', sans-serif;
+    color: #1e6662;
+    font-size: 42px;
+    margin-top: 50px;
+}
+
+.page {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 90px 20px 0;
+}
+
+.paragraph-style {
+    padding: 0px 0 20px;
+    margin: 0;
+    font-size: 16px;
 }

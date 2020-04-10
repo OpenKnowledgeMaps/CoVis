@@ -10,7 +10,8 @@
             <li><a href="index">Covid-19 research</a></li>
             <li><a href="data"><i class="fas fa-pencil-alt"></i> Data Source</a></li>
             <li><a href="about">About</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="faqs">FAQs</a></li>
+            <li><a href="contact-us">Contact us</a></li>
         </ul>
     </div>
 
@@ -23,14 +24,15 @@
     </div>-->
 
     <p class="description">
-        <a href="index">CoVis</a>
+        <a href="about">CoVis</a>
     </p>
 
     <ul class="nav_top">
         <li><a href="index">Covid-19 research</a></li>
             <li><a href="data"><i class="fas fa-pencil-alt"></i> Data Source</a></li>
             <li><a href="about">About</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="faqs">FAQs</a></li>
+            <li><a href="contact-us">Contact us</a></li>
     </ul>
 </div>
 <script type="text/javascript">
