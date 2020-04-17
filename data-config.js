@@ -1,7 +1,7 @@
 var data_config = {
     tag: "visualization",
-    mode: "local_files",
-    service_name: "CoVis",
+    mode: "gsheets",
+    service_name: "Google Sheets",
     
     bubble_min_scale: 1.1,
     bubble_max_scale: 1.1,
@@ -26,6 +26,7 @@ var data_config = {
     show_context: true,
     create_title_from_context: false,
     show_context_timestamp: true,
+    show_loading_screen: true,
     
     scale_toolbar: false,
     
@@ -52,7 +53,7 @@ var data_config = {
     
     localization: {
         eng_covis: {
-            loading: "Loading...",
+            loading: "Updating and retrieving map. This may take a few seconds, please hold on.",
             search_placeholder: "Search within map...",
             show_list: "Show list",
             hide_list: "Hide list",
