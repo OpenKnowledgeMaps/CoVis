@@ -19,20 +19,11 @@ include 'config.php';
     <script type="text/javascript">
         $(document).ready(function () {
             data_config.server_url = "<?php echo $HEADSTART_PATH ?>server/";
-            
-            /*$.ajax({
-                type: 'POST'
-                , url: 'http://dev.openknowledgemaps.org/api/gsheets/search'
-                , data: '{"vis_id":"covid19"}'
-            })
-            .done(function (data) {*/
-                data_config.files = [{
-                    title: 'CoVis'
-                    , file: 'covis_testdata.json'
-                }]
-                headstart.start();
-            //})
-            
+            data_config.files = [{
+                title: 'CoVis'
+                , file: "<?php echo $SHEET_ID; ?>"
+            }]
+            headstart.start();
         })
         
     </script>
