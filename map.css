@@ -1,0 +1,8 @@
+.errors-container {
+    margin: 20px 10px;
+    display: none;
+}
+
+.show-errors {
+    display: initial;
+}
