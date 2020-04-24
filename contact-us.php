@@ -26,22 +26,16 @@ include 'config.php';
 
                     <h1 class="page-headline">Contact us</h1>
                     
-                    <h4 class="question">You are subject matter expert and would like to contribute to CoVis?</h4>
+                    <h4 class="question">I am a subject matter expert and would like to contribute to CoVis</h4>
                     
                     <p class="paragraph-style">
                        Please get in touch with...
                     </p>
                     
-                    <h4 class="question">Contact Open Knowledge Maps</h4>
+                    <h4 class="question">All other inquiries</h4>
                     
                     <p class="paragraph-style">
-                       insert details
-                    </p>
-                    
-                     <h4 class="question">Contact Refigure</h4>
-                    
-                    <p class="paragraph-style">
-                       insert details
+                       For all other inquiries, please contact ...
                     </p>
                     
                 </div>
