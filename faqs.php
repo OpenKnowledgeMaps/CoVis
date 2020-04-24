@@ -26,7 +26,29 @@ include 'config.php';
 
                     <h1 class="page-headline">FAQs</h1>
                     
-                    <h4 class="question">How can I contribute to CoVis?</h4>
+                    <h4 class="question">What is a knowledge map?</h4>
+                    <!--<p class="example">
+                        <a href="./img/data-example.png" data-toggle="lightbox">
+                            <img class="shadow2 abstand" src="./img/data-example.png" alt="">
+                        </a>
+                        <span>Screenshot: Datensatz</span>
+                    </p>-->
+                    <p class="paragraph-style">
+                       Knowledge maps provide an instant overview of a topic by showing the main areas at a glance, and papers related to each area. This makes it possible to easily identify useful, pertinent information.
+                    </p>
+                    
+                    <h4 class="question">How do you decide what is included in the knowledge map?</h4>
+                    <!--<p class="example">
+                        <a href="./img/data-example.png" data-toggle="lightbox">
+                            <img class="shadow2 abstand" src="./img/data-example.png" alt="">
+                        </a>
+                        <span>Screenshot: Datensatz</span>
+                    </p>-->
+                    <p class="paragraph-style">
+                       Describe the collaborative editing process here.
+                    </p>
+                    
+                     <h4 class="question">How can I contribute to CoVis?</h4>
                     <!--<p class="example">
                         <a href="./img/data-example.png" data-toggle="lightbox">
                             <img class="shadow2 abstand" src="./img/data-example.png" alt="">
@@ -37,7 +59,7 @@ include 'config.php';
                        You are subject matter expert and would like to contribute to CoVis? Please get in touch with...
                     </p>
                     
-                    <h4 class="question">What is a knowledge map?</h4>
+                    <h4 class="question">Who is behind CoVis?</h4>
                     <!--<p class="example">
                         <a href="./img/data-example.png" data-toggle="lightbox">
                             <img class="shadow2 abstand" src="./img/data-example.png" alt="">
@@ -45,7 +67,10 @@ include 'config.php';
                         <span>Screenshot: Datensatz</span>
                     </p>-->
                     <p class="paragraph-style">
-                       Knowledge maps provide an instant overview of a topic by showing the main areas at a glance, and papers related to each area. This makes it possible to easily identify useful, pertinent information.
+                       Open Knowledge Maps is...
+                    </p>
+                    <p class="paragraph-style">
+                       ReFigure is...
                     </p>
                     
                     <h4 class="question">Can I create my own CoVis for another research topic?</h4>
