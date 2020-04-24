@@ -22,12 +22,12 @@ include 'config.php';
 
         <div class="about-text">
 
-            <h2 class="headline" style="font-size: 40px; max-width: 750px; font-weight: 700;">Collaborative and visual knowledge base for Covid-19 research</h2>
+            <h2 class="headline" style="font-size: 40px; max-width: 750px; font-weight: 700;">A curated, visual knowledge base for Covid-19 research</h2>
             <p style="max-width: 750px; font-size: 24px; font-weight: 300;">
-                In the current Covid-19 pandemic, many researchers seek valid knowledge as well as a way to stay on top of that knowledge. To support them, Open Knowledge Maps and ReFigure have launched CoVis. CoVis provides a curated knowledge map on Covid-19 research and is constantly evolving thanks to the collective editing of subject-matter experts.
+                In the current pandemic, many researchers seek valid scientific data and findings on Covid-19. To support them, Open Knowledge Maps and ReFigure have launched CoVis. CoVis provides a curated knowledge map of seminal works on Covid-19 research. The knowledge map is constantly evolving thanks to the collective editing of subject-matter experts.
             </p>
             <p class="search-btn">
-                <a href="index">Covid-19 research</a>
+                <a href="index">View the Covid-19 Knowledge Map</a>
             </p>
             
             <p style="max-width: 750px; font-size: 24px; font-weight: 300;">
