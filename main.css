@@ -3,22 +3,14 @@
     transition: 0.03s ease-in;
 }
 
-html {
-    height: 100%;
-    margin: 0;
-    width:100%; 
-    display: table;
-}
 body {
     font-family: 'Lato', sans-serif; 
     padding: 0px;
     width:100%; 
     color: #333;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #f7f7f7;
-    height: 100%;
     margin: 0;
-    display: table;
 }
 
 a {
@@ -27,23 +19,36 @@ a {
 }
 
 .about {
-    background: url(img/example.png) no-repeat right, linear-gradient(rgb(30, 102, 98), rgb(44, 161, 181));
-    background-size: 45%;
-}
-
-.generalpage {
-    display: table;
-    height: 100%;
+    background: linear-gradient(rgb(30, 102, 98), rgb(44, 161, 181));
+    background-repeat: no-repeat;
 }
 
 .about-text {
     color: white;
     padding: 200px 0px 100px 100px; 
-    max-width: 60%;
+    max-width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about-image {
+    max-width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 100px;
+}
+
+.about-paragraph {
+    max-width: 750px; 
+    font-size: 24px; 
+    font-weight: 300;
 }
 
 .headline {
     font-weight: 300;
+    font-size: 40px; 
+    max-width: 750px; 
+    font-weight: 700;
 }
 
 .credits {
@@ -69,8 +74,7 @@ a {
 
 footer {
     background-color: white;
-    display: table-row; 
-    height: 0;
+    padding: 20px 0;
 }
 
 footer a {
@@ -82,15 +86,16 @@ footer a {
 .partner-logo2 {
     max-height: 70px;
     margin-left: 20px;
+    vertical-align: middle;
 }
 
 .search-btn {
     font-family: 'Lato', sans-serif;
-    max-width: 300px;
+    max-width: 400px;
     text-align: center;
-    margin: 20px 0 0;
+    margin: 40px 0 0;
     padding: 20px 0;
-    border-radius: 17px; 
+    border-radius: 17px;
     -moz-border-radius: 17px;
     -webkit-border-radius: 17px;
     font-size: 24px;
@@ -152,8 +157,7 @@ footer a {
 
 .page-section {
     max-width:750px; 
-    margin: 0px auto 40px; 
-    font-size: 16px;
+    margin: 0px auto 40px;
 }
 
 .page-headline {
@@ -169,8 +173,25 @@ footer a {
     padding: 90px 20px 0;
 }
 
+.page2 {
+    margin: 0px auto;
+    padding: 90px 50px 50px;
+}
+
 .paragraph-style {
     padding: 0px 0 20px;
     margin: 0;
-    font-size: 16px;
+}
+
+.shadow2 {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.abstand {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
 }

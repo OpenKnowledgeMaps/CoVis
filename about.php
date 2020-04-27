@@ -20,10 +20,12 @@ include 'config.php';
             <?php include('menu.php'); ?>
         </header>
 
+        <div style="max-width: 1600px; margin: 0px auto;">
         <div class="about-text">
 
-            <h2 class="headline" style="font-size: 40px; max-width: 750px; font-weight: 700;">A curated, visual knowledge base for Covid-19 research</h2>
-            <p style="max-width: 750px; font-size: 24px; font-weight: 300;">
+            <h1 class="headline">A curated, visual knowledge base for Covid-19 research</h1>
+            
+            <p class="about-paragraph">
                 In the current pandemic, many researchers seek valid scientific data and findings on Covid-19. To support them, Open Knowledge Maps and ReFigure have launched CoVis. CoVis provides a curated knowledge map of seminal works on Covid-19 research. The knowledge map is constantly evolving thanks to the collective editing of subject-matter experts.
             </p>
             <p class="search-btn">
@@ -33,7 +35,14 @@ include 'config.php';
             <p style="max-width: 750px; font-size: 24px; font-weight: 300;">
                 <a href="contact-us" style='color: white;'>Get in touch if you'd like to contribute</a>
             </p>
+            
         </div>
+        
+        <div class="about-image">
+            <a href="index"><img style="width: 100%;" src="./img/example.png"></a>
+        </div>
+        
+         </div>
         <?php include('footer.php') ?>
     </body>
 

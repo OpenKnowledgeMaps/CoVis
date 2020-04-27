@@ -22,83 +22,68 @@ include 'config.php';
 
         <div class="page">
 
-                <div class="page-section">
+            <div class="page-section">
 
-                    <h1 class="page-headline">FAQs</h1>
-                    
-                    <h4 class="question">What is a knowledge map?</h4>
-                    <!--<p class="example">
-                        <a href="./img/data-example.png" data-toggle="lightbox">
-                            <img class="shadow2 abstand" src="./img/data-example.png" alt="">
-                        </a>
-                        <span>Screenshot: Datensatz</span>
-                    </p>-->
-                    <p class="paragraph-style">
-                       Knowledge maps provide an instant overview of a topic by showing the main areas at a glance, and papers related to each area. This makes it possible to easily identify useful, pertinent information.
-                    </p>
-                    
-                    <h4 class="question">How do you decide what is included in the knowledge map?</h4>
-                    <!--<p class="example">
-                        <a href="./img/data-example.png" data-toggle="lightbox">
-                            <img class="shadow2 abstand" src="./img/data-example.png" alt="">
-                        </a>
-                        <span>Screenshot: Datensatz</span>
-                    </p>-->
-                    <p class="paragraph-style">
-                       Describe the collaborative editing process here.
-                    </p>
-                    
-                     <h4 class="question">How can I contribute to CoVis?</h4>
-                    <!--<p class="example">
-                        <a href="./img/data-example.png" data-toggle="lightbox">
-                            <img class="shadow2 abstand" src="./img/data-example.png" alt="">
-                        </a>
-                        <span>Screenshot: Datensatz</span>
-                    </p>-->
-                    <p class="paragraph-style">
-                       You are subject matter expert and would like to contribute to CoVis? Please get in touch with...
-                    </p>
-                    
-                    <h4 class="question">Who is behind CoVis?</h4>
-                    <!--<p class="example">
-                        <a href="./img/data-example.png" data-toggle="lightbox">
-                            <img class="shadow2 abstand" src="./img/data-example.png" alt="">
-                        </a>
-                        <span>Screenshot: Datensatz</span>
-                    </p>-->
-                    <p class="paragraph-style">
-                       Open Knowledge Maps is...
-                    </p>
-                    <p class="paragraph-style">
-                       ReFigure is...
-                    </p>
-                    
-                    <h4 class="question">Can I create my own CoVis for another research topic?</h4>
-                    <!--<p class="example">
-                        <a href="./img/data-example.png" data-toggle="lightbox">
-                            <img class="shadow2 abstand" src="./img/data-example.png" alt="">
-                        </a>
-                        <span>Screenshot: Datensatz</span>
-                    </p>-->
-                    <p class="paragraph-style">
-                        CoVis is only avialable for Covid-19 research for now. But
-                        you can automatically create knowledge maps for any research topic on <a href="https://openknowledgemaps.org" target="_blank">openknowledgemaps.org</a>. These knowledge maps are based on 150 mio. documents from any discipline.
-                    </p>
-                    
-                    <h4 class="question">How is CoVis funded?</h4>
-                    <!--<p class="example">
-                        <a href="./img/data-example.png" data-toggle="lightbox">
-                            <img class="shadow2 abstand" src="./img/data-example.png" alt="">
-                        </a>
-                        <span>Screenshot: Datensatz</span>
-                    </p>-->
-                    <p class="paragraph-style">
-                       At the moment we are looking for funding. Please get in touch if you'd like to fund us.
-                    </p>
-                    
-                </div>
+                <h1 class="page-headline">FAQs</h1>
+
+                <h4 class="question">What is a knowledge map?</h4>
+                
+                <p class="example">
+                    <a href="./img/knowledgemap-covid-19.png" data-toggle="lightbox">
+                        <img class="shadow2 abstand" src="./img/knowledgemap-covid-19.png" alt="Screenshot Knowledge Map on Covid-19 research">
+                    </a>
+                    <span>Screenshot: Knowledge Map on Covid-19 research</span>
+                </p>
+                
+                <p class="paragraph-style">
+                    Knowledge maps provide an instant overview of a topic by showing the main areas at a glance, and papers related to each area. This makes it possible to easily identify useful, pertinent information.
+                </p>
+
+                <p>The knowledge map is based on open source software developed by Open Knowledge Maps.</p>
+
+                <h4 class="question">What is a ReFigure?</h4>
+
+                <p class="paragraph-style">
+                    A ReFigure ...
+                </p>
+
+                <h4 class="question">How do you decide what is included in the knowledge map?</h4>
+
+                <p class="paragraph-style">
+                    Describe the collaborative editing process here.
+                </p>
+
+                <h4 class="question">How can I contribute to CoVis?</h4>
+
+                <p class="paragraph-style">
+                    You are subject matter expert and would like to contribute to CoVis? Please get in touch with...
+                </p>
+
+                <h4 class="question">Who is behind CoVis?</h4>
+
+                <p class="paragraph-style">
+                    Open Knowledge Maps is...
+                </p>
+                <p class="paragraph-style">
+                    ReFigure is...
+                </p>
+
+                <h4 class="question">Can I create my own CoVis for another research topic?</h4>
+
+                <p class="paragraph-style">
+                    CoVis is only avialable for Covid-19 research for now. But
+                    you can automatically create knowledge maps for any research topic on <a href="https://openknowledgemaps.org" target="_blank">openknowledgemaps.org</a>. These knowledge maps are based on 150 mio. documents from any discipline.
+                </p>
+
+                <h4 class="question">How is CoVis funded?</h4>
+
+                <p class="paragraph-style">
+                    At the moment we are looking for funding. Please get in touch if you'd like to fund us.
+                </p>
+
+            </div>
         </div>
-                    
+
         <?php include('footer.php') ?>
     </body>
 
