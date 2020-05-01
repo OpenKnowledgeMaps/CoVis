@@ -4,13 +4,14 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Lato', sans-serif !important; 
     padding: 0px;
     width:100%; 
-    color: #333;
-    font-size: 18px;
+    color: #333 !important;
+    font-size: 18px !important;
     background-color: #f7f7f7;
     margin: 0;
+    line-height: 1 !important;
 }
 
 a {
