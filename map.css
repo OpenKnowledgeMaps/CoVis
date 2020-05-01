@@ -6,3 +6,11 @@
 .show-errors {
     display: block;
 }
+
+.topheader {
+    padding-top: 83px;
+}
+
+.error-row-top, .error-row-entry {
+    padding: 5px;
+}
