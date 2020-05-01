@@ -1,17 +1,22 @@
 * {
     box-sizing: content-box;
-    transition: 0.03s ease-in;
 }
 
 body {
-    font-family: 'Lato', sans-serif !important; 
+    font-family: 'Lato', sans-serif; 
     padding: 0px;
     width:100%; 
-    color: #333 !important;
-    font-size: 18px !important;
+    color: #333;
+    font-size: 18px;
     background-color: #f7f7f7;
     margin: 0;
-    line-height: 1 !important;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 1;
 }
 
 a {
@@ -45,6 +50,10 @@ a {
     font-weight: 300;
 }
 
+.description a:hover {
+    color: #1e6662;
+}
+
 .headline {
     font-weight: 300;
     font-size: 40px; 
@@ -76,12 +85,17 @@ a {
 footer {
     background-color: white;
     padding: 20px 0;
+    font-size: 18px;
+    color: #333;
+    line-height: 1;
 }
 
 footer a {
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
     font-weight: 700;
     margin-right: 10px;
+    color: #1e6662;
 }
 
 .partner-logo2 {
