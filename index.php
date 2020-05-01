@@ -8,7 +8,7 @@ include 'config.php';
     <?php include 'head_covis.php' ?>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link type="text/css" rel="stylesheet" href="./menu.css">
-    <!--<link type="text/css" rel="stylesheet" href="./main.css">-->
+    <link type="text/css" rel="stylesheet" href="./main.css">
     <link type="text/css" rel="stylesheet" href="./map.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -23,7 +23,7 @@ include 'config.php';
     <div class="topheader"></div>
     <div id="visualization" class="headstart"></div>
     <div id="errors" class="errors-container"></div>
-    <?php //include('footer.php') ?>
+    <?php include('footer.php') ?>
     <script type="text/javascript">
         
         let elem = document.getElementById('visualization');
