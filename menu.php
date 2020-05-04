@@ -7,8 +7,8 @@
 
         <!-- Mobile Menu -->
         <ul>
-            <li><a href="about">About</a></li>
-            <li><a href="index">Covid-19 Knowledge Map</a></li>
+            <li><a href="index">About</a></li>
+            <li><a href="knowledge-map">Covid-19 Knowledge Map</a></li>
             <li><a href="data"><i class="fas fa-pencil-alt"></i> Data Source</a></li>
             <li><a href="faqs">FAQs</a></li>
             <li><a href="contact-us">Contact us</a></li>
@@ -24,12 +24,12 @@
     </div>-->
 
     <p class="description">
-        <a href="about">CoVis</a>
+        <a href="index">CoVis</a>
     </p>
 
     <ul class="nav_top">
-        <li><a href="about">About</a></li>
-        <li><a href="index">Covid-19 Knowledge Map</a></li>
+        <li><a href="index">About</a></li>
+        <li><a href="knowledge-map">Covid-19 Knowledge Map</a></li>
         <li><a href="data"><i class="fas fa-pencil-alt"></i> Data Source</a></li>
         <li><a href="faqs">FAQs</a></li>
         <li><a href="contact-us">Contact us</a></li>
