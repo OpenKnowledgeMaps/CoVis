@@ -116,14 +116,14 @@ header #logo a:hover {
     text-decoration: none;
     text-transform: none;
     display: block;
-    color: #00122f;
+    color: #1e6662;
     text-transform: uppercase;
 }
 
 .icon-close {
     cursor: pointer;
     padding: 5px 0px 5px 20px;
-    background-color: #00122f;
+    background-color: #1e6662;
     color: white;
     font-size: 28px;
 }
@@ -139,7 +139,7 @@ header #logo a:hover {
     vertical-align: middle;
     text-align:left;
     background-color: transparent;
-    color: #00122f;
+    color: #1e6662;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -148,7 +148,7 @@ header #logo a:hover {
 .fa-bars {
     padding: 6px 8px 8px;
     font-size: 18px;
-    border: 1px solid #00122f;
+    border: 1px solid #1e6662;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -156,35 +156,39 @@ header #logo a:hover {
 
 /*Headstart Menu*/
 
-.vis-page .description a {
+.knowledge-map .description a, .knowledge-map .description a:hover, .knowledge-map .description a:active, .knowledge-map .description a:focus {
     color: white;
     font-size: 20px;
 }
 
-.vis-page header a {
+.knowledge-map .description {
+    line-height: 100%;
+}
+
+.knowledge-map header a {
     color: white;
 }
 
-.vis-page header .menu a {
-    color: #00122f;
+.knowledge-map header .menu a {
+    color: #1e6662;
     text-transform: uppercase;
 }
 
-.vis-page .nav_top {
+.knowledge-map .nav_top {
     font-size: 13px;
 }
 
-.vis-page header {
-    background-color: #00122f;
+.knowledge-map header {
+    background-color: #1e6662;
 }
 
-.vis-page .nav_top a:hover, .vis-page .nav_top a:active, .vis-page .nav_top a:focus, .vis-page .underline-menu  {
+.knowledge-map .nav_top a:hover, .knowledge-map .nav_top a:active, .knowledge-map .nav_top a:focus, .knowledge-map .underline-menu  {
     border-bottom: 2px solid white;
     text-decoration: none;
     color: white;
 }
 
-.vis-page .icon-menu {
+.knowledge-map .icon-menu {
     color: white;
     border: 1px solid white;
 }

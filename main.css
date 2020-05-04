@@ -210,3 +210,19 @@ footer a {
 img {
     max-width: 100%;
 }
+
+/*headstart footer*/
+.knowledge-map footer {
+    background-color: #1e6662;
+    color: white;
+}
+
+.knowledge-map .partner-logo2 {
+    /*border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;*/
+}
+
+.knowledge-map footer a, .knowledge-map footer a:focus, .knowledge-map footer a:active, .knowledge-map footer a:hover {
+    color: white;
+}
