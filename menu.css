@@ -1,6 +1,6 @@
 /*MENU*/
 header {
-    padding: 20px 0px 15px;
+    padding: 40px 0px;
     position: fixed;
     width: 100%;
     background-color: white;
@@ -27,9 +27,9 @@ header #logo a:hover {
     background-color: transparent;
     font-size: 20px;
     margin: 0px 0px 0px 50px !important;
-    vertical-align: bottom;
+    vertical-align: middle;
     position: absolute;
-    right: 50px;
+    right: 20px;
     top: 40%;
     font-family: 'Lato', sans-serif;
 }
@@ -62,7 +62,7 @@ header #logo a:hover {
     color: #1e6662;
     vertical-align: middle;
     display: inline-block;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 50px;
     padding: 0;
 }
 
@@ -180,6 +180,7 @@ header #logo a:hover {
 
 .knowledge-map header {
     background-color: #1e6662;
+    padding: 10px 0;
 }
 
 .knowledge-map .nav_top a:hover, .knowledge-map .nav_top a:active, .knowledge-map .nav_top a:focus, .knowledge-map .underline-menu  {

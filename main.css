@@ -67,19 +67,19 @@ a {
     display: inline-block;
     padding-top: 20px;
     text-align: right;
-    width: 55%;
+    width: 65%;
     vertical-align: middle;
 }
 
 .credits2 {
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     text-transform: none; 
     color: #f7f7f7; 
     display: inline-block;
     vertical-align: middle;
     text-align: left;
-    padding-left: 20px;
-    width: 40%;
+    padding-left: 50px;
+    width: 28%;
 }
 
 footer {
@@ -215,12 +215,17 @@ img {
 .knowledge-map footer {
     background-color: #1e6662;
     color: white;
+    padding: 10px 0;
+}
+
+.knowledge-map .credits {
+    padding-top: 0px;
 }
 
 .knowledge-map .partner-logo2 {
-    /*border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;*/
+    max-height: 50px;
+    margin-left: 0px;
+    vertical-align: middle;
 }
 
 .knowledge-map footer a, .knowledge-map footer a:focus, .knowledge-map footer a:active, .knowledge-map footer a:hover {
