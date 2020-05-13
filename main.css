@@ -262,6 +262,21 @@ img {
     color: white;
 }
 
+/*Errors table*/
+
+.errors-table {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+}
+
+.top-row {
+    background-color: #1e6662;
+    color: white;
+}
+
 @media screen and (max-width: 1200px) {
 
     .headline, .page-headline {

@@ -32,7 +32,7 @@ include 'config.php';
                     <a href="./img/knowledgemap-covid-19.png" data-toggle="lightbox">
                         <img class="shadow2 abstand" src="./img/knowledgemap-covid-19.png" alt="Screenshot Knowledge Map on Covid-19 research">
                     </a>
-                    <span>Screenshot: Knowledge Map on Covid-19 research</span>
+                    <span style="font-size: 12px;">Screenshot: Knowledge Map on Covid-19 research</span>
                 </p>
                 
                 <p class="paragraph-style">
@@ -85,7 +85,7 @@ include 'config.php';
                 <h4 class="question">How is CoVis funded?</h4>
 
                 <p class="paragraph-style">
-                    At the moment we are looking for funding. Please get in touch if you'd like to fund us.
+                    At the moment we are looking for funding. Please <a href="contact-us">get in touch</a> if you'd like to fund us.
                 </p>
                 
                 <h4 class="question">I have a question that is not listed here</h4>
