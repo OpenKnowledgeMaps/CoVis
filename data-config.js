@@ -52,8 +52,8 @@ var data_config = {
     filter_menu_dropdown: true,
     
     intro: {
-      title:""
-      , body: ""
+      title:"Knowledge Map of Covid-19 research curated by subject matter experts"
+      , body: "<h3>About Covis</h3><p>add more info</p><p><a class='link-popup' href='faqs'>Read our FAQs to find out more</a>.</p><h3>Data Source</h3><p>add more info</p><p><a class='link-popup' target='_blank' href='contact-us'>Get in touch</a></p><h3>Software</h3><p>The knowledge map is based on open source software developed by <a target='_blank' class='link-popup' href='https://openknowledgemaps.org/'>Open Knowledge Maps</a>.</p>"
     },
     
     localization: {
