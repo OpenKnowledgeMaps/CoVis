@@ -22,25 +22,30 @@ include 'config.php';
 
         <div class="page">
 
-                <div class="page-section">
+            <div class="page-section">
 
-                    <h1 class="page-headline">Contact us</h1>
-                    
-                    <h4 class="question">I am a subject matter expert and would like to contribute to CoVis</h4>
-                    
-                    <p class="paragraph-style">
-                        Please get in touch with team ReFigure at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a>
-                    </p>
-                    
-                    <h4 class="question">All other inquiries</h4>
-                    
-                    <p class="paragraph-style">
-                       Please contact us at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
-                    </p>
-                    
-                </div>
+                <h1 class="page-headline">Contact us</h1>
+
+                <h4 class="question">I am a subject matter expert and would like to contribute to CoVis</h4>
+
+                <p class="paragraph-style">
+                    Please add more information on how editors get selected etc.
+                </p>
+
+                <p class="paragraph-style">
+                    Please get in touch with team ReFigure at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a>
+                </p>
+                
+
+                <h4 class="question">All other inquiries</h4>
+
+                <p class="paragraph-style">
+                    Please get in touch with team Open Knowledge Maps at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
+                </p>
+
+            </div>
         </div>
-                    
+
         <?php include('footer.php') ?>
     </body>
 

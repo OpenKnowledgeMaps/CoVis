@@ -20,7 +20,7 @@ var data_config = {
     show_list:true,
     is_force_papers: true,
     is_title_clickable: false,
-    show_infolink: false,
+    show_infolink: true,
     show_infolink_areas: false,
 	
     show_context: true,
@@ -51,14 +51,19 @@ var data_config = {
     sort_menu_dropdown: true,
     filter_menu_dropdown: true,
     
+    intro: {
+      title:""
+      , body: ""
+    },
+    
     localization: {
         eng_covis: {
             loading: "Updating and retrieving map. This may take a few seconds, please hold on.",
             search_placeholder: "Search within map...",
             show_list: "Show list",
             hide_list: "Hide list",
-            intro_label: "",
-            intro_icon: "&#xf05a;",
+            intro_label: "curated by subject matter experts",
+            intro_icon: "",
             relevance: "relevance",
             readers: "citations",
             year: "date",

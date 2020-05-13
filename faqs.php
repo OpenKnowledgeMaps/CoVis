@@ -49,7 +49,7 @@ include 'config.php';
                     A ReFigure ...
                 </p>
 
-                <h4 class="question">How do you decide what is included in the knowledge map?</h4>
+                <h4 class="question">How do you decide what is included / excluded in the knowledge map?</h4>
 
                 <p class="paragraph-style">
                     Describe the collaborative editing process here.
