@@ -29,13 +29,13 @@ include 'config.php';
                     <h4 class="question">I am a subject matter expert and would like to contribute to CoVis</h4>
                     
                     <p class="paragraph-style">
-                       Please get in touch with...
+                        Please get in touch with team ReFigure at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a>
                     </p>
                     
                     <h4 class="question">All other inquiries</h4>
                     
                     <p class="paragraph-style">
-                       For all other inquiries, please contact ...
+                       Please contact us at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
                     </p>
                     
                 </div>

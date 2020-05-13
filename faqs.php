@@ -36,10 +36,12 @@ include 'config.php';
                 </p>
                 
                 <p class="paragraph-style">
-                    Knowledge maps provide an instant overview of a topic by showing the main areas at a glance, and papers related to each area. This makes it possible to easily identify useful, pertinent information.
+                    Knowledge maps provide an instant overview of a topic by showing the main areas at a glance, and resources related to each area. This makes it possible to easily identify useful, pertinent information.
                 </p>
+                
+                <p class="paragraph-style">Areas are displayed as bubbles. By clicking on one of the bubbles, you can inspect the resources assigned to it. The size of the bubbles is relative to the number of resources assigned to it. Closeness of bubbles implies subject similarity. The closer two bubbles, the closer they are subject-wise. Centrality of bubbles implies subject similarity with the rest of the map, not importance. The closer a bubble is to the center, the closer it is subject-wise to all the other bubbles in the map.</p>
 
-                <p>The knowledge map is based on open source software developed by Open Knowledge Maps.</p>
+                <p class="paragraph-style">The knowledge map is based on the open source software <a href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Head Start</a> developed by Open Knowledge Maps.</p>
 
                 <h4 class="question">What is a ReFigure?</h4>
 
@@ -56,13 +58,18 @@ include 'config.php';
                 <h4 class="question">How can I contribute to CoVis?</h4>
 
                 <p class="paragraph-style">
-                    You are subject matter expert and would like to contribute to CoVis? Please get in touch with...
+                    Please check the <a href="contact-us">contact page</a>.
                 </p>
+                
+                <h4 class="question">Can I reuse CoVis?</h4>
+
+                <p class="paragraph-style">Describe the licenses for software, data and content.</p>
 
                 <h4 class="question">Who is behind CoVis?</h4>
 
                 <p class="paragraph-style">
-                    Open Knowledge Maps is...
+                    Open Knowledge Maps is a charitable nonprofit organization dedicated to improving the visibility of
+                    scientific knowledge for science and society. As part of its mission, Open Knowledge Maps operates the world’s largest visual search engine for research, which enables a diverse set of audiences to explore, discover and make use of scientific content. In addition, Open Knowledge Maps carries out training events to improve literature search skills, and it enables broad community participation through its support and engagement programs.
                 </p>
                 <p class="paragraph-style">
                     ReFigure is...
@@ -79,6 +86,12 @@ include 'config.php';
 
                 <p class="paragraph-style">
                     At the moment we are looking for funding. Please get in touch if you'd like to fund us.
+                </p>
+                
+                <h4 class="question">I have a question that is not listed here</h4>
+
+                <p class="paragraph-style">
+                    We'd love to hear from you! Please <a href="contact-us">get in touch</a>.
                 </p>
 
             </div>
