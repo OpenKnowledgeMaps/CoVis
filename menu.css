@@ -133,7 +133,7 @@ header #logo a:hover {
     cursor: pointer;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 50px;
     text-decoration: none;
     text-transform: uppercase;
     vertical-align: middle;
@@ -194,6 +194,13 @@ header #logo a:hover {
     border: 1px solid white;
 }
 
+@media screen and (max-width: 1200px) {
+    
+    .nav_top {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 900px) {
 
     .menu {
@@ -214,8 +221,13 @@ header #logo a:hover {
     
     .description {
         font-size: 24px;
-        padding-top: 10px;
-        margin-left: 30px;
+        padding-top: 0px;
+        margin-left: 20px;
     }
+}
 
+@media screen and (max-width: 800px) {
+    .icon-menu {
+        margin: 0px 0px 0px 20px;
+    }
 }

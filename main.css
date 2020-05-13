@@ -61,49 +61,6 @@ a {
     font-weight: 700;
 }
 
-.credits {
-    padding-left: 20px; 
-    /*padding-bottom: 20px;*/ 
-    display: inline-block;
-    padding-top: 20px;
-    text-align: right;
-    width: 65%;
-    vertical-align: middle;
-}
-
-.credits2 {
-    /*padding-top: 20px;*/
-    text-transform: none; 
-    color: #f7f7f7; 
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
-    padding-left: 50px;
-    width: 28%;
-}
-
-footer {
-    background-color: white;
-    padding: 20px 0;
-    font-size: 18px;
-    color: #333;
-    line-height: 1;
-}
-
-footer a {
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-    font-weight: 700;
-    margin-right: 10px;
-    color: #1e6662;
-}
-
-.partner-logo2 {
-    max-height: 70px;
-    margin-left: 20px;
-    vertical-align: middle;
-}
-
 .search-btn {
     font-family: 'Lato', sans-serif;
     max-width: 400px;
@@ -158,7 +115,69 @@ footer a {
     text-decoration: none;
 }
 
-/*FAQs page*/
+.contribution {
+    background-color: #f7f7f7; 
+    text-align: center; 
+    display: block;
+    padding: 50px 20px;
+}
+
+.contribution h3 {
+    font-size: 24px; 
+    color: #1e6662;
+}
+
+.link1 {
+    font-size: 24px; 
+    font-weight: 300;
+}
+
+/*Footer*/
+.credits {
+    padding-left: 20px; 
+    /*padding-bottom: 20px;*/ 
+    display: inline-block;
+    padding-top: 20px;
+    text-align: right;
+    width: 65%;
+    vertical-align: middle;
+}
+
+.credits2 {
+    /*padding-top: 20px;*/
+    text-transform: none; 
+    color: #f7f7f7; 
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 50px;
+    width: 28%;
+}
+
+footer {
+    background-color: white;
+    padding: 20px 0;
+    font-size: 18px;
+    color: #333;
+    line-height: 1;
+}
+
+footer a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #1e6662;
+}
+
+.partner-logo2 {
+    max-height: 70px;
+    margin-left: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/*Other pages*/
 .question {
     padding: 40px 0px 20px; 
     margin: 0px;
@@ -211,6 +230,14 @@ img {
     max-width: 100%;
 }
 
+.about-image-mobile {
+    display: none;
+}
+
+.mobile-footer {
+    display: none;
+}
+
 /*headstart footer*/
 .knowledge-map footer {
     background-color: #1e6662;
@@ -230,4 +257,109 @@ img {
 
 .knowledge-map footer a, .knowledge-map footer a:focus, .knowledge-map footer a:active, .knowledge-map footer a:hover {
     color: white;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .headline {
+        font-size: 30px;
+    }
+
+    .about-paragraph, .search-btn, .link1, .contribution h3, .contact-btn { 
+        font-size: 18px;
+    }
+
+    .about-text {
+        max-width: 40%;
+    }
+
+    .credits {
+        width: 60%;
+    }
+
+    .credits2 {
+        width: 30%;
+    }
+
+    .knowledge-map .credits { 
+        width: 52%;
+    }
+
+    .knowledge-map .credits2 {
+        width: 38%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .about-text {
+        max-width: 400px;
+        display: inline-block;
+        padding: 100px 20px 50px 50px;
+    }
+
+    .about-image {
+        display: inline-block;
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .about-text {
+        max-width: 100%;
+        padding: 100px 20px 50px 20px;
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: block;
+        padding: 0px;
+    }
+
+    .desktop-footer {
+        display: none;
+    }
+
+    .credits { 
+        width: 100%;
+        display: block;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    .credits2 {
+        width: 100%;
+        display: block;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        background-color: #1e6662;
+    }
+
+    footer a {
+        color: white;
+    }
+
+    .credits span {
+        display:block;
+        margin-bottom: 20px;
+    }
+
+    .partner-logo2 {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+    .mobile-footer {
+        line-height: 150%;
+    }
+
+    .knowledge-map .mobile-footer .credits {
+        background-color: #1e6662;
+    }
 }
