@@ -104,12 +104,23 @@ include 'config.php';
             let height = $(window).height();
             let width = $(window).width();
             let calculated_height = 0;
+            
+            console.log("Height: " +height)
+            console.log("Width: " +width)
 
             if(height <= 670 || width < 904 || (width >= 985 && width  < 1070)) {
-                calculated_height = 670;
+                calculated_height = 670;              
+             } else if (width >= 904 && width <= 984) {
+                calculated_height = 670 + (width - 904);
+            } else if (width >= 1070 && width < 1400) {
+                calculated_height = 670 + (width - 1070)/2;
+            } else if (height >= 988 && width >= 1404 && width < 1435) {
+                calculated_height = 670 + (width - 1170);
             }  else {
                 calculated_height = $(window).height() - $("header").outerHeight();
             }
+            
+            console.log("Calculated height: " +calculated_height)
 
             return calculated_height;
         }
