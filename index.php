@@ -31,12 +31,12 @@ include 'config.php';
                 <p class="about-paragraph">
                     In the current pandemic, many researchers seek valid scientific data and findings on Covid-19. To support them, Open Knowledge Maps and ReFigure have launched CoVis. CoVis provides a curated knowledge map of seminal works on Covid-19 research. The knowledge map is constantly evolving thanks to the collective editing of subject-matter experts.
                 </p>
-                <p class="search-btn">
-                    <a href="knowledge-map">View the Covid-19 Knowledge Map</a>
+                <p>
+                    <a class="search-btn" href="knowledge-map">View the Covid-19 Knowledge Map</a>
                 </p>
 
                 <p class="link1">
-                    <a href="faqs" style='color: white;'>Find out more about the project</a>
+                    <a href="faqs" style='color: white;'>Read our FAQs to find out more about the project</a>
                 </p>
 
 <!--<p style="font-size: 24px; font-weight: 300;">

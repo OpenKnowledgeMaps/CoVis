@@ -25,7 +25,7 @@ a {
 }
 
 .about {
-    background: linear-gradient(rgb(30, 102, 98), rgb(44, 161, 181));
+    background: linear-gradient(rgb(44, 161, 181), rgb(30, 102, 98));
     background-repeat: no-repeat;
 }
 
@@ -64,6 +64,7 @@ a {
 .search-btn {
     font-family: 'Lato', sans-serif;
     max-width: 400px;
+    display: block;
     text-align: center;
     margin: 40px 0 0;
     padding: 20px 0;
@@ -75,6 +76,8 @@ a {
     /*background-image: linear-gradient(rgb(44, 161, 181), rgb(44, 161, 181));*/ 
     color: white; width:100%; padding: 10px 3px;
     border: 3px solid white;
+    color: white;
+    text-decoration: none;
 }
 
 .search-btn:hover {
@@ -83,36 +86,30 @@ a {
     cursor: pointer;
 }
 
-.search-btn a {
-    color: white;
-    text-decoration: none;
-}
-
 .contact-btn {
     font-family: 'Lato', sans-serif;
-    max-width: 300px;
     text-align: center;
+    display: block;
+    max-width: 300px;
     margin: 20px auto 0;
-    padding: 20px 0;
+    padding: 20px;
     border-radius: 17px; 
     -moz-border-radius: 17px;
     -webkit-border-radius: 17px;
     font-size: 24px;
-    background-image: linear-gradient(rgb(44, 161, 181), rgb(44, 161, 181));
+    background-image: linear-gradient(rgb(30, 102, 98), rgb(30, 102, 98));
     /*background-image: linear-gradient(rgb(44, 161, 181), rgb(44, 161, 181));*/ 
     color: white; width:100%; padding: 10px 3px;
     border: 3px solid transparent;
+    color: white;
+    text-decoration: none;
 }
 
 .contact-btn:hover {
-    background-image: linear-gradient(rgb(30, 102, 98), rgb(30, 102, 98));
+    background-image: none;
     border: 3px solid #1e6662;
     cursor: pointer;
-}
-
-.contact-btn a {
-    color: white;
-    text-decoration: none;
+    color: #1e6662;
 }
 
 .contribution {
@@ -178,6 +175,12 @@ footer a {
 }
 
 /*Other pages*/
+
+.example {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
 .question {
     padding: 40px 0px 20px; 
     margin: 0px;
@@ -198,7 +201,7 @@ footer a {
     font-family: 'Lato', sans-serif;
     color: #1e6662;
     font-size: 42px;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .page {
@@ -259,13 +262,28 @@ img {
     color: white;
 }
 
+/*Errors table*/
+
+.errors-table {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+}
+
+.top-row {
+    background-color: #1e6662;
+    color: white;
+}
+
 @media screen and (max-width: 1200px) {
 
-    .headline {
+    .headline, .page-headline {
         font-size: 30px;
     }
 
-    .about-paragraph, .search-btn, .link1, .contribution h3, .contact-btn { 
+    .about-paragraph, .search-btn, .link1, .contribution h3, .contact-btn, .question { 
         font-size: 18px;
     }
 
@@ -361,5 +379,13 @@ img {
 
     .knowledge-map .mobile-footer .credits {
         background-color: #1e6662;
+    }
+
+    .page-headline {
+        margin-top: 0px;
+    }
+    
+    .question {
+        padding: 20px 0 10px;
     }
 }

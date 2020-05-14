@@ -20,7 +20,7 @@ var data_config = {
     show_list:true,
     is_force_papers: true,
     is_title_clickable: false,
-    show_infolink: false,
+    show_infolink: true,
     show_infolink_areas: false,
 	
     show_context: true,
@@ -51,14 +51,19 @@ var data_config = {
     sort_menu_dropdown: true,
     filter_menu_dropdown: true,
     
+    intro: {
+      title:"Knowledge Map of Covid-19 research curated by subject matter experts"
+      , body: "<h3>About Covis</h3><p>add more info</p><p><a class='link-popup' href='faqs'>Read our FAQs to find out more</a>.</p><h3>Data Source</h3><p>add more info</p><p><a class='link-popup' target='_blank' href='contact-us'>Get in touch</a></p><h3>Software</h3><p>The knowledge map is based on open source software developed by <a target='_blank' class='link-popup' href='https://openknowledgemaps.org/'>Open Knowledge Maps</a>.</p>"
+    },
+    
     localization: {
         eng_covis: {
             loading: "Updating and retrieving map. This may take a few seconds, please hold on.",
             search_placeholder: "Search within map...",
             show_list: "Show list",
             hide_list: "Hide list",
-            intro_label: "",
-            intro_icon: "&#xf05a;",
+            intro_label: "curated by subject matter experts",
+            intro_icon: "",
             relevance: "relevance",
             readers: "citations",
             year: "date",
