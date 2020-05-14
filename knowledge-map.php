@@ -109,14 +109,19 @@ include 'config.php';
             console.log("Width: " +width)
 
             if(height <= 670 || width < 904 || (width >= 985 && width  < 1070)) {
+                console.log("Height calculation min_height");
                 calculated_height = 670;              
              } else if (width >= 904 && width <= 984) {
+                 console.log("Height calculation no. 1")
                 calculated_height = 670 + (width - 904);
-            } else if (width >= 1070 && width < 1400) {
+            } else if (height >= 890 && width >= 1070 && width < 1400) {
+                console.log("Height calculation no. 2");
                 calculated_height = 670 + (width - 1070)/2;
             } else if (height >= 988 && width >= 1404 && width < 1435) {
+                console.log("Height calculation no. 3");
                 calculated_height = 670 + (width - 1170);
             }  else {
+                console.log("Height calculation default")
                 calculated_height = $(window).height() - $("header").outerHeight();
             }
             
