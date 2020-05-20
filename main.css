@@ -241,6 +241,11 @@ img {
     display: none;
 }
 
+.desktop-footer {
+    display: block;
+    position: relative;
+}
+
 /*headstart footer*/
 .knowledge-map footer {
     background-color: #1e6662;
@@ -291,11 +296,11 @@ img {
         max-width: 40%;
     }
 
-    .credits {
+    .credits, .mobile-footer .credits2 {
         width: 60%;
     }
 
-    .credits2 {
+    .credits2, .mobile-footer .credits2 {
         width: 30%;
     }
 
@@ -343,14 +348,14 @@ img {
         display: none;
     }
 
-    .credits { 
+    .credits, .mobile-footer .credits { 
         width: 100%;
         display: block;
         text-align: left;
         padding-bottom: 20px;
     }
 
-    .credits2 {
+    .credits2, .mobile-footer .credits2 {
         width: 100%;
         display: block;
         padding-left: 20px;
@@ -384,7 +389,7 @@ img {
     .page-headline {
         margin-top: 0px;
     }
-    
+
     .question {
         padding: 20px 0 10px;
     }

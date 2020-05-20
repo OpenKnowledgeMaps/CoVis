@@ -1,8 +1,8 @@
 <footer class="desktop-footer">
     
     <div class="credits2">
-    <a href="https://openknowledgemaps.org/privacy">Privacy Policy</a>
-    <a href="https://openknowledgemaps.org/imprint#legalnotice">Legal Notice</a>
+    <a target="_blank" href="https://openknowledgemaps.org/privacy">Privacy Policy</a>
+    <a target="_blank" href="https://openknowledgemaps.org/imprint#legalnotice">Legal Notice</a>
     </div>
     
     <div class="credits"><span style="vertical-align: middle;">Project partners:</span>
