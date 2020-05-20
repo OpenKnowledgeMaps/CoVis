@@ -36,14 +36,14 @@ include 'config.php';
                     $("<p/>", {
                         id: "errors-info"
                         , class: "errors-info"
-                        , text: "The following errors were detected in the data sheet:"
+                        , html: 'The following errors were detected in the data sheet: <i id="expand-icon" class="fa fa-plus-circle" aria-hidden="true"></i>'
                     });
                 $("#errors").append(errors_info);
                 
                 let errors_table =
                      $("<table/>", {
                          id: "errors-table"
-                         , class: "errors-table"
+                         , class: "errors-table errors-table-hidden"
                      });   
                 
                 $("#errors").append(errors_table);
@@ -78,6 +78,12 @@ include 'config.php';
                 }
                                           
             }
+            
+            $("#expand-icon").on("click", function () {
+                $("#errors-table").toggleClass("errors-table-hidden");
+                $("#expand-icon").toggleClass("fa-minus-circle");
+            });
+            
         });
             
     </script>

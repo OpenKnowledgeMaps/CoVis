@@ -14,3 +14,11 @@
 .error-row-top, .error-row-entry {
     padding: 5px;
 }
+
+#expand-icon {
+    cursor: pointer;
+}
+
+.errors-table-hidden {
+    display: none;
+}
