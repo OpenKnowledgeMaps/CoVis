@@ -52,12 +52,13 @@ include 'config.php';
                 <h4 class="question">How do you decide what is included / excluded in the knowledge map?</h4>
 
                 <p class="paragraph-style">
-                    Describe the collaborative editing process here.
+                    Please add criteria etc. here.
                 </p>
 
                 <h4 class="question">How can I contribute to CoVis?</h4>
 
                 <p class="paragraph-style">
+                    Describe the collaborative editing process here.
                     Please check the <a href="contact-us">contact page</a>.
                 </p>
                 
@@ -78,14 +79,14 @@ include 'config.php';
                 <h4 class="question">Can I create my own CoVis for another research topic?</h4>
 
                 <p class="paragraph-style">
-                    CoVis is only avialable for Covid-19 research for now. But
+                    CoVis is only available for Covid-19 research for now. But
                     you can automatically create knowledge maps for any research topic on <a href="https://openknowledgemaps.org" target="_blank">openknowledgemaps.org</a>. These knowledge maps are based on 150 mio. documents from any discipline.
                 </p>
 
                 <h4 class="question">How is CoVis funded?</h4>
 
                 <p class="paragraph-style">
-                    At the moment we are looking for funding. Please <a href="contact-us">get in touch</a> if you'd like to fund us.
+                   Add funder. Please <a href="contact-us">get in touch</a> if you'd like to fund us.
                 </p>
                 
                 <h4 class="question">I have a question that is not listed here</h4>
