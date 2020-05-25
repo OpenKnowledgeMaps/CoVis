@@ -29,7 +29,7 @@ include 'config.php';
                 <h4 class="question">I am a subject matter expert and would like to contribute to CoVis</h4>
 
                 <p class="paragraph-style">
-                    Please add more information on how editors get selected etc.
+                    If you have recommendations for a paper to be included in the platform, please send your recommendation as well as your rationale to start a discussion with us.
                 </p>
 
                 <p class="paragraph-style">
