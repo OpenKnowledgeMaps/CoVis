@@ -1,1 +1,3 @@
 # CoVis
+
+License: MIT
