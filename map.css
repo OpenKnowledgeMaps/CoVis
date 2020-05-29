@@ -15,8 +15,13 @@
     padding: 5px;
 }
 
-#expand-icon {
+.errors-info {
+    line-height: 110% !important;
+}
+
+.errors-info, .expand-icon {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .errors-table-hidden {

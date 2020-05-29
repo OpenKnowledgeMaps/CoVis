@@ -36,7 +36,7 @@ include 'config.php';
                     $("<p/>", {
                         id: "errors-info"
                         , class: "errors-info"
-                        , html: 'The following errors were detected in the data sheet: <i id="expand-icon" class="fa fa-plus-circle" aria-hidden="true"></i>'
+                        , html: '<i id="expand-icon" class="fa fa-plus-circle expand-icon" aria-hidden="true"/> The following errors were detected in the data sheet:</i>'
                     });
                 $("#errors").append(errors_info);
                 
@@ -79,7 +79,7 @@ include 'config.php';
                                           
             }
             
-            $("#expand-icon").on("click", function () {
+            $("#errors-info").on("click", function () {
                 $("#errors-table").toggleClass("errors-table-hidden");
                 $("#expand-icon").toggleClass("fa-minus-circle");
             });
