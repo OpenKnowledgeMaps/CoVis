@@ -5,7 +5,10 @@ include 'config.php';
 <html>
 
     <head>
-        <?php include 'head_covis.php' ?>
+        <?php 
+            $title = "Data Source - CoVis";
+            include 'head_covis.php' 
+        ?>
     </head>
 
     <body class="generalpage">

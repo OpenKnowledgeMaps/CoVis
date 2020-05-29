@@ -5,7 +5,10 @@ include 'config.php';
 <html>
 
     <head>
-        <?php include 'head_covis.php' ?>
+        <?php 
+            $title = "Contact Us - CoVis";
+            include 'head_covis.php' 
+        ?>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link type="text/css" rel="stylesheet" href="./css/menu.css">
         <link type="text/css" rel="stylesheet" href="./css/main.css">
