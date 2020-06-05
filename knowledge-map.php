@@ -109,7 +109,7 @@ include 'config.php';
             data_config.server_url = "<?php echo $HEADSTART_PATH ?>server/";
             data_config.files = [{
                 title: 'CoVis'
-                , file: "<?php echo $VIS_ID; ?>"
+                , file: "<?php echo $SHEET_ID; ?>"
             }]
             
             $(document).ready(function () {
