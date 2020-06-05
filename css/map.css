@@ -27,3 +27,18 @@
 .errors-table-hidden {
     display: none;
 }
+
+.reload-button {
+    color: white;
+    background-color: red;
+    position: fixed;
+    top: 10px;
+    left: 150px;
+    z-index: 99;
+    cursor: pointer;
+    display: none;
+}
+
+.show-reload-button {
+    display: block;
+}

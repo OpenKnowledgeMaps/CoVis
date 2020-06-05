@@ -21,13 +21,11 @@ include 'config.php';
     <?php include "browser_unsupported_banner.php"; ?>
     <div id="visualization" class="headstart"></div>
     <div id="errors" class="errors-container"></div>
+    <div id="reload" class="reload-button">A map update is available - click here to reload</div>
     <?php include('footer.php') ?>
     <script type="text/javascript">
         
-        let elem = document.getElementById('visualization');
-        
-        elem.addEventListener('headstart.data.loaded', function(e) {
-            let errors = e.detail.data.errors;
+        function displayErrors(errors) {
             if(errors.length > 0) {
                 $("#errors").addClass("show-errors")
                 
@@ -82,6 +80,23 @@ include 'config.php';
                 $("#errors-table").toggleClass("errors-table-hidden");
                 $("#expand-icon").toggleClass("fa-minus-circle");
             });
+        }
+        
+        function updateCheck(context) {
+            $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/GSheetUpdateAvailable.php?sheet_id=<?php echo $SHEET_ID ?>&gsheet_last_updated=" + context.last_update,
+                        function(output) {
+                            if (output.update_available) {
+                                $("#reload").addClass("show-reload-button");
+                            }
+                        });
+        }
+        
+        let elem = document.getElementById('visualization');
+        
+        elem.addEventListener('headstart.data.loaded', function(e) {
+            let errors = e.detail.data.errors;
+            displayErrors(errors);
+            var check_update = window.setInterval(updateCheck, 6000, e.detail.data.context);
             
         });
             
@@ -146,6 +161,10 @@ include 'config.php';
                     $("#visualization").css("height", div_height + "px")
                 });
                 $(window).trigger('resize');
+                
+                $("#reload").on("click", function () {
+                    location.reload();
+                });
             });
 
         <?php endif ?>
