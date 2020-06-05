@@ -32,13 +32,26 @@
     color: white;
     background-color: red;
     position: fixed;
-    top: 10px;
-    left: 150px;
+    top: 45px;
+    left: 50%;
+    transform: translate(-50%, 0);
     z-index: 99;
     cursor: pointer;
+    display: block;
+    padding: 3px 15px;
+    border-radius: 20px;
     display: none;
+}
+
+.dismiss-reload {
+    color: white;
+    text-decoration: underline;
 }
 
 .show-reload-button {
     display: block;
+}
+
+.hide-reload-text {
+    display: none;
 }

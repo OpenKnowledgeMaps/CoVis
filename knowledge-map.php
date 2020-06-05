@@ -21,7 +21,7 @@ include 'config.php';
     <?php include "browser_unsupported_banner.php"; ?>
     <div id="visualization" class="headstart"></div>
     <div id="errors" class="errors-container"></div>
-    <div id="reload" class="reload-button">A map update is available - click here to reload</div>
+    <div id="reload" class="reload-button"><i class="fas fa-redo"></i><span id="reload-text"> A map update is available - click here to reload <a id="dismiss-reload" class="dismiss-reload">dismiss</a></span></div>
     <?php include('footer.php') ?>
     <script type="text/javascript">
         
@@ -83,20 +83,33 @@ include 'config.php';
         }
         
         function updateCheck(context) {
-            $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/GSheetUpdateAvailable.php?sheet_id=<?php echo $SHEET_ID ?>&gsheet_last_updated=" + context.last_update,
+            $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/GSheetUpdateAvailable.php?vis_id=<?php echo $SHEET_ID ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
                         function(output) {
                             if (output.update_available) {
                                 $("#reload").addClass("show-reload-button");
+                                $("#reload-text").removeClass("hide-reload-text");
+                                window.clearInterval(check_update);
                             }
                         });
         }
         
+        <?php if(isset($DEBUG) && $DEBUG === true): ?>
+            function updateMap() {
+                $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/updateGSheetsMap.php?q=covis&sheet_id=<?php echo $SHEET_ID ?>",
+                            function(output) {
+                            });
+            }
+
+            var update_map = window.setInterval(updateMap, 45000);
+        <?php endif; ?>
+        
         let elem = document.getElementById('visualization');
+        var check_update = null;
         
         elem.addEventListener('headstart.data.loaded', function(e) {
             let errors = e.detail.data.errors;
             displayErrors(errors);
-            var check_update = window.setInterval(updateCheck, 6000, e.detail.data.context);
+            check_update = window.setInterval(updateCheck, 6000, e.detail.data.context);
             
         });
             
@@ -164,6 +177,11 @@ include 'config.php';
                 
                 $("#reload").on("click", function () {
                     location.reload();
+                });
+                
+                $("#dismiss-reload").on("click", function (event) {
+                    $("#reload-text").addClass("hide-reload-text");
+                    event.stopPropagation() 
                 });
             });
 
