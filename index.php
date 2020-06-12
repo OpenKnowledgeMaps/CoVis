@@ -40,7 +40,6 @@ include 'config.php';
             <div class="about-image">
                 <a href="knowledge-map"><img style="width: 100%;" src="./img/example.png"></a>
             </div>
-
         </div>
 
         <?php include('contribute-research.php') ?>
