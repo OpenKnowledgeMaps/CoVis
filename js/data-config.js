@@ -78,6 +78,7 @@ var data_config = {
             backlink_list_streamgraph: "← Show all documents",
             backlink_list_streamgraph_stream_selected: "← Show all documents in stream",
             keywords: "Keywords",
+            no_keywords: "n/a",
             no_title: "No title",
             overview_label: 'Overview of',
             streamgraph_label: 'Streamgraph for',
