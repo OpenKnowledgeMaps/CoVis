@@ -114,6 +114,7 @@ var data_config = {
             Review: "Review",
             link: 'link',
             items: "items",
+            comment_by_label: "by",
             pdf_not_loaded: "Sorry, we were not able to retrieve the PDF for this publication. You can get it directly from",
             pdf_not_loaded_linktext: "this website",
             share_button_title: "share this map",
