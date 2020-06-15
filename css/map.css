@@ -30,16 +30,16 @@
 
 .reload-button {
     color: white;
-    background-color: red;
+    background-color: #cc3b6b;
     position: fixed;
-    top: 45px;
-    left: 50%;
-    transform: translate(-50%, 0);
+    top: 220px;
+    left: 0px;
+    transform: translate(-0%, 0);
     z-index: 99;
     cursor: pointer;
     display: block;
-    padding: 3px 15px;
-    border-radius: 20px;
+    padding: 12px 15px;
+    border-radius: 5px;
     display: none;
 }
 
@@ -48,10 +48,21 @@
     text-decoration: underline;
 }
 
+.dismiss-reload:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .show-reload-button {
     display: block;
 }
 
 .hide-reload-text {
     display: none;
+}
+
+@media screen and (max-width: 1150px) {
+    .reload-button {
+    padding: 10px 12px;
+    }
 }
