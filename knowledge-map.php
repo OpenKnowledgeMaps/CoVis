@@ -21,7 +21,7 @@ include 'config.php';
     <?php include "browser_unsupported_banner.php"; ?>
     <div id="visualization" class="headstart"></div>
     <div id="errors" class="errors-container"></div>
-    <div id="reload" class="reload-button"><i class="fas fa-redo"></i><span id="reload-text"> A map update is available - click here to reload <a id="dismiss-reload" class="dismiss-reload">dismiss</a></span></div>
+    <div id="reload" class="reload-button"><i class="fas fa-redo"></i><span id="reload-text"> An update is available <br><a id="reload" class="dismiss-reload">reload now</a> or <a id="dismiss-reload" class="dismiss-reload">do it later</a></span></div>
     <?php include('footer.php') ?>
     <script type="text/javascript">
         

@@ -55,7 +55,7 @@ var data_config = {
     hashtags_twitter_card: "COVID19,openscience,discovery",
     
     intro: {
-      title:"Knowledge Map of Covid-19 research curated by subject matter experts"
+      title:"Knowledge Map of Covid-19 research curated by experts"
       , body: "<h3>About Covis</h3><p>In the current pandemic, many researchers seek valid scientific data and findings on Covid-19. To support them, Open Knowledge Maps and ReFigure have launched CoVis. CoVis provides a curated knowledge map of seminal works on Covid-19 research. The knowledge map is constantly evolving thanks to the collective editing of subject-matter experts.</p><p><a class='link-popup' href='faqs'>Read our FAQs to find out more</a>.</p><h3>Data Source curated by ReFigure</h3><p>Given the fast pace of research and the limited historical data on Covid-19, many findings are under debate and only understandable after reading several reports from different sources.</p><p>Team <a target='_blank' class='link-popup' href='https://refigure.org/'>ReFigure</a> creates visual, easy to understand, annotated, figure collections which provide analyses and consensus on key issues. Boston based scientists and ReFigure founders Drs. Goyal and Akin are immunology experts and also form our starting database curation team.</p><p>They are also looking for subject-matter experts to help them in their efforts.</p><p><a class='link-popup' target='_blank' href='contact-us'>Please get in touch</a>, if you'd like to add research to the data source.</p><h3>Software created by Open Knowledge Maps</h3><p>CoVis visualization is achieved using award-winning software <a target='_blank' class='link-popup' href='https://openknowledgemaps.org/'>developed by Open Knowledge Maps</a>. The software creates visual overviews of research fields, alongside relevant resources, annotated with keywords, comments and tags. The visual interface allows the user to explore a large amount of resources with ease on a single page and all the publications are linked; those that are open access can be downloaded directly from the interface.</p>"
     },
     
@@ -65,7 +65,7 @@ var data_config = {
             search_placeholder: "Search within map...",
             show_list: "Show list",
             hide_list: "Hide list",
-            intro_label: "curated by subject matter experts",
+            intro_label: "curated by experts",
             intro_icon: "",
             relevance: "relevance",
             readers: "citations",
