@@ -7,7 +7,7 @@ include 'config.php';
 <head>
     
     <?php 
-        $title = "Covid-19 Knowledge Map - CoVis";
+        $title = "COVID-19 Knowledge Map - CoVis";
         include 'head_covis.php' 
     ?>
     <link type="text/css" rel="stylesheet" href="./css/map.css">

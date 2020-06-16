@@ -23,11 +23,11 @@ include 'config.php';
                     <h1 class="page-headline">Data Source</h1>
                     
                     <p class="paragraph-style">
-                        Below you can find the Spreadsheet with select seminal works on Covid-19 research on which the <a href="knowledge-map">Covid-19 knowledge map</a> is based on. The spreadsheet is curated by subject matter experts.
+                        Below you can find the Spreadsheet with select seminal works on COVID-19 research on which the <a href="knowledge-map">COVID-19 knowledge map</a> is based on. The spreadsheet is curated by subject matter experts.
                     </p>
                     
                     <p> 
-                        <a href="contact-us">Please get in touch</a> if you'd like to contribute to the Spreadsheet!
+                        If you are a subject matter expert and want to recommend papers or support us in curating the knowledge map, <a href="faqs#contribute">find more information here</a> or <a href="contact-us">get in touch</a>.
                     </p>
                     
                     <p class="paragraph-style">

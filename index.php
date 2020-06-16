@@ -19,22 +19,19 @@ include 'config.php';
             </div>
             <div class="about-text">
 
-                <h1 class="headline">A curated, visual knowledge base for Covid-19 research</h1>
+                <h1 class="headline">Kick start your COVID-19 literature research</h1>
 
                 <p class="about-paragraph">
-                    In the current pandemic, many researchers seek valid scientific data and findings on Covid-19. To support them, Open Knowledge Maps and ReFigure have launched CoVis. CoVis provides a curated knowledge map of seminal works on Covid-19 research. The knowledge map is constantly evolving thanks to the collective editing of subject-matter experts.
+                    For the development of therapeutics and vaccines for COVID-19, scientists need reliable research results. To support them, Open Knowledge Maps and ReFigure have launched CoVis. CoVis provides a curated knowledge map of seminal works on COVID-19 from eight critical areas of biomedical research. The knowledge map is constantly evolving thanks to the collective editing of subject-matter experts.
                 </p>
+                <p class="about-paragraph">CoVis enables you to spend less time on reviewing COVID-19 literature and more time on your research.</p>
                 <p>
-                    <a class="search-btn" href="knowledge-map">View the Covid-19 Knowledge Map</a>
+                    <a class="search-btn" href="knowledge-map">View the COVID-19 Knowledge Map</a>
                 </p>
 
                 <p class="link1">
                     <a href="faqs" style='color: white;'>Read our FAQs to find out more about the project</a>
                 </p>
-
-<!--<p style="font-size: 24px; font-weight: 300;">
-    <a href="contact-us" style='color: white;'>Get in touch if you'd like to contribute</a>
-</p>-->
             </div>
 
             <div class="about-image">
