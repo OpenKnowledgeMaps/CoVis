@@ -46,7 +46,7 @@ a {
 
 .about-paragraph {
     max-width: 750px; 
-    font-size: 24px; 
+    font-size: 22px; 
     font-weight: 300;
 }
 
@@ -56,7 +56,7 @@ a {
 
 .headline {
     font-weight: 300;
-    font-size: 40px; 
+    font-size: 36px; 
     max-width: 750px; 
     font-weight: 700;
 }
@@ -71,7 +71,7 @@ a {
     border-radius: 17px;
     -moz-border-radius: 17px;
     -webkit-border-radius: 17px;
-    font-size: 24px;
+    font-size: 22px;
     background-color: transparent;
     /*background-image: linear-gradient(rgb(44, 161, 181), rgb(44, 161, 181));*/ 
     color: white; width:100%; padding: 10px 3px;
@@ -96,7 +96,7 @@ a {
     border-radius: 17px; 
     -moz-border-radius: 17px;
     -webkit-border-radius: 17px;
-    font-size: 24px;
+    font-size: 22px;
     background-image: linear-gradient(rgb(30, 102, 98), rgb(30, 102, 98));
     /*background-image: linear-gradient(rgb(44, 161, 181), rgb(44, 161, 181));*/ 
     color: white; width:100%; padding: 10px 3px;
@@ -120,12 +120,12 @@ a {
 }
 
 .contribution h3 {
-    font-size: 24px; 
+    font-size: 36px; 
     color: #1e6662;
 }
 
 .link1 {
-    font-size: 24px; 
+    font-size: 22px; 
     font-weight: 300;
 }
 
@@ -175,6 +175,14 @@ footer a {
 }
 
 /*Other pages*/
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    padding: 0px 0px 20px;
+}
 
 .example {
     padding: 0;
