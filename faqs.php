@@ -57,17 +57,16 @@ include 'config.php';
 
                 <p class="example">
                     <a href="./img/knowledgemap-covid-19.png" data-toggle="lightbox">
-                        <img class="shadow2 abstand" src="./img/knowledgemap-covid-19.png" alt="Screenshot Knowledge Map on Covid-19 research">
+                        <img class="shadow2 abstand" src="./img/knowledgemap-covid-19.png" alt="Screenshot Knowledge Map on COVID-19 research">
                     </a>
-                    <span style="font-size: 12px;">Screenshot: Knowledge Map on Covid-19 research</span>
+                    <span style="font-size: 12px;">Screenshot: Knowledge Map on COVID-19 research</span>
                 </p>
                 <p class="paragraph-style">Knowledge maps provide an instant overview of a topic by showing the main areas at a glance, and resources related to each area annotated with keywords, comments and tags. This makes it possible to easily identify useful, pertinent information.</p>
                 <p class="paragraph-style">Research areas are displayed as bubbles. By clicking on one of the bubbles, you can inspect the resources assigned to it. The size of the bubbles is relative to the number of resources assigned to it. Closeness of bubbles implies subject similarity. The closer two bubbles, the closer they are subject-wise. Centrality of bubbles implies subject similarity with the rest of the map, not importance. The closer a bubble is to the center, the closer it is subject-wise to all the other bubbles in the map.
                 </p>
                 <p class="paragraph-style">The knowledge map is based on the award-winning open source software <a target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Head Start</a> developed by Open Knowledge Maps. Head Start is capable of creating knowledge maps from a variety of data, including text, metadata and references. The visual interface allows the user to explore a large amount of resources with ease on a single page; those that are open access can be downloaded directly from the interface. If you have any questions please get in touch with team Open Knowledge Maps at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a></p>
 
-
-
+                <a name="methodology"></a>
                 <h4 class="question">Methodology for paper inclusion</h4>
                 <p class="paragraph-style">Members of the ReFigure team nominated articles based on, first, what areas they were most interested in and, second, by determining the amount of current, or potential discussion an article might engender. Other members of the team either validated the article’s selection, or offered alternatives. The articles were then sorted and annotated with the Open Knowledge Maps team to be presented optimally in the CoVis visualization. This collection is not exhaustive, but rather provides some relevant and impactful starting points for further pursuing coronavirus research. If you would like to participate, please email us your interest at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a>.</p>
 
@@ -84,13 +83,13 @@ include 'config.php';
                 <h4 class="question">Can I create my own CoVis for another research topic?</h4>
 
                 <p class="paragraph-style">
-                    CoVis is only available for Covid-19 research for now. But
+                    CoVis is only available for COVID-19 research for now. But
                     you can automatically create knowledge maps for any research topic on <a href="https://openknowledgemaps.org" target="_blank">openknowledgemaps.org</a>. These knowledge maps are based on 150 mio. documents from any discipline.
                 </p>
 
                 <h4 class="question">How is CoVis funded?</h4>
                 <p class="paragraph-style">
-                    This project has received funding from <a target="_blank" href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding">“COVID-19 Fast Track Funding” by EOSC Secretariat</a>.
+                    This project has received funding from <a target="_blank" href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding">“COVID-19 Fast Track Funding” by EOSCSecretariat</a>.
                 </p>
                 <p class="paragraph-style">
                     Please <a href="contact-us">get in touch</a> if you'd like to fund us.

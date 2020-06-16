@@ -26,7 +26,7 @@ include 'config.php';
                 </p>
                 <p class="about-paragraph">CoVis enables you to spend less time on reviewing COVID-19 literature and more time on your research.</p>
                 <p>
-                    <a class="search-btn" href="knowledge-map">View the Covid-19 Knowledge Map</a>
+                    <a class="search-btn" href="knowledge-map">View the COVID-19 Knowledge Map</a>
                 </p>
 
                 <p class="link1">
