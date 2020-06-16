@@ -17,6 +17,8 @@
 
 .errors-info {
     line-height: 110% !important;
+    z-index: 99;
+    position: relative;
 }
 
 .errors-info, .expand-icon {
