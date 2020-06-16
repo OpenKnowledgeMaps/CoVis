@@ -52,6 +52,7 @@ include 'config.php';
 
                 <p class="paragraph-style"><a target="_blank" href="https://refigure.org/" target="_blank">ReFigure</a> is the flagship platform created by Scimpact, LLC, a social-impact startup with the mission to re-imagine the way scientific results are communicated. With a growing community of users, ReFigure makes research results more interactive to scientists of all training levels. ReFigure has demonstrated impact across scientific disciplines to encourage critical review, comparison and curation of scientific results through its novel, web-native platform.</p>
 
+                <a name="knowledge-map"></a>
                 <h4 class="question">What is a knowledge map?</h4>
 
                 <p class="example">

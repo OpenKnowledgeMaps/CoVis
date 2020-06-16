@@ -32,10 +32,6 @@ include 'config.php';
                 <p class="link1">
                     <a href="faqs" style='color: white;'>Read our FAQs to find out more about the project</a>
                 </p>
-
-<!--<p style="font-size: 24px; font-weight: 300;">
-    <a href="contact-us" style='color: white;'>Get in touch if you'd like to contribute</a>
-</p>-->
             </div>
 
             <div class="about-image">
