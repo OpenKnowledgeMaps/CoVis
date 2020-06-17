@@ -1,7 +1,7 @@
 var data_config = {
     tag: "visualization",
     mode: "gsheets",
-    service_name: '<a href="data" target="_blank" style="color: #1e6662;border-bottom: 1px solid #1e6662;">CoVis knowledge base</a>',
+    service_name: '<span class="backlink"><a href="data" class="underline" target="_blank" >CoVis knowledge base</a></span>',
     
     bubble_min_scale: 1.1,
     bubble_max_scale: 1.1,
@@ -89,7 +89,7 @@ var data_config = {
             most_recent_label: 'most recent',
             most_relevant_label: 'most relevant',
             most_relevant_tooltip: 'To determine the most relevant documents, we use the relevance ranking provided by the source - either BASE or PubMed. Both sources compute the text similarity between your query and the article metadata to establish the relevance ranking. Please consult the FAQ for more information.',
-            source_label: 'Source',
+            source_label: 'Data source',
             resulttype_label: 'Document type',
             documenttypes_label: 'Document types',
             timestamp_label: 'Last updated',
