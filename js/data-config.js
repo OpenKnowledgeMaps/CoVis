@@ -1,7 +1,7 @@
 var data_config = {
     tag: "visualization",
     mode: "gsheets",
-    service_name: "Google Sheets",
+    service_name: '<a href="data" target="_blank" style="color: #1e6662;border-bottom: 1px solid #1e6662;">CoVis Knowledge Base</a>',
     
     bubble_min_scale: 1.1,
     bubble_max_scale: 1.1,
