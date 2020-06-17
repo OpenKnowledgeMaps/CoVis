@@ -27,7 +27,7 @@ include 'config.php';
                     </p>
                     
                     <p class="paragraph-style"> 
-                        If you are a subject matter expert and want to recommend papers or support us in curating the knowledge map, <a href="faqs#contribute">find more information here</a> or <a href="contact-us">get in touch</a>.
+                        If you are a subject matter expert and want to recommend papers or support us in curating the knowledge map, please <a href="contact-us">get in touch</a>.
                     </p>
                     
                     <p class="paragraph-style">
