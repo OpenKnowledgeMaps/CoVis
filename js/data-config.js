@@ -85,7 +85,7 @@ var data_config = {
             streamgraph_label: 'Streamgraph for',
             overview_authors_label: 'Overview of the works of',
             streamgraph_authors_label: 'Streamgraph for the works of',
-            articles_label: 'resources',
+            articles_label: 'resources and collections',
             most_recent_label: 'most recent',
             most_relevant_label: 'most relevant',
             most_relevant_tooltip: 'To determine the most relevant documents, we use the relevance ranking provided by the source - either BASE or PubMed. Both sources compute the text similarity between your query and the article metadata to establish the relevance ranking. Please consult the FAQ for more information.',
