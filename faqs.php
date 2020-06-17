@@ -24,7 +24,7 @@ include 'config.php';
 
                 <h4 class="question">What is the idea behind CoVis and how did it come about?
                 </h4>
-                <p class="paragraph-style">This knowledge map was created with the intent to make important biomedical laboratory research on coronavirus infection and COVID-19 disease more discoverable. The collection is not meant to be exhaustive, but to offer highlights that are a jumping off point in 8 key areas: immunity, vaccines, therapeutics, diagnostics, viral biology, host biology and clinical findings and epidemiology. After careful review and discussion with users from both of our intended audiences, we added an additional area, introduction to coronavirus research, which includes foundational papers in coronavirus research to those who have no prior background. Selected articles within each category have been included based on the collective review of our editorial team with consideration to the potential impact and novelty of the findings, as well as the potential to encourage and bring forward important questions during this dynamic time. New content and categories can be proposed for COVIS.</p>
+                <p class="paragraph-style">This knowledge map was created with the intent to make important biomedical laboratory research on coronavirus infection and COVID-19 disease more discoverable. The collection is not meant to be exhaustive, but to offer highlights that are a jumping off point in eight key areas: immunity, vaccines, therapeutics, diagnostics, viral biology, host biology and clinical findings and epidemiology. After careful review and discussion with users from both of our intended audiences, we added an additional area, introduction to coronavirus research, which includes foundational papers in coronavirus research to those who have no prior background. Selected articles within each category have been included based on the collective review of our editorial team with consideration to the potential impact and novelty of the findings, as well as the potential to encourage and bring forward important questions during this dynamic time. New content and categories can be proposed for CoVis. For more information please <a href="contact-us">view our contact page</a>.</p>
 
                 <h4 class="question">How do you decide what is included / excluded in the knowledge map?
                 </h4>
@@ -35,16 +35,15 @@ include 'config.php';
                 <a class="anchor" name="contribute"></a>
                 <h4 class="question">How can I contribute to CoVis?</h4>
 
-                <p class="paragraph-style">There are several ways to contribute to COVIS:</p>
-
-                <ol>
-                    <li>To connect with CoVis or propose research resources, please <a href="">fill out this short form</a>.</li>
-                    <li>If you would like to create your own collections and interpretations of research findings, <a target="_blank" href="https://refigure.org/signup/">sign up as a ReFigure user here</a>. Once you have signed up, you can find a tutorial of <a target="_blank" href="https://www.youtube.com/watch?v=FxGLRB6y0tc">how to create ReFigure collections here</a>. After you have created your coronavirus related ReFigure, please send us an email at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a> to begin a discussion with us.
-                    </li>
-                </ol>
+                <p class="paragraph-style">Please <a href="contact-us">view our contact page</a>.</p>
 
 
                 <h4 class="question">Who is behind CoVis?</h4>
+                
+                <p class="paragraph-style">
+                    CoVis is a collaboration project of Open Knowledge Maps and ReFigure.
+                </p>
+                
                 <p class="paragraph-style">
                     <a href="https://openknowledgemaps.org" target="_blank">Open Knowledge Maps</a> is a charitable nonprofit organization dedicated to improving the visibility of
                     scientific knowledge for science and society. As part of its mission, Open Knowledge Maps operates the world’s largest visual search engine for research, which enables a diverse set of audiences to explore, discover and make use of scientific content. In addition, Open Knowledge Maps carries out training events to improve literature search skills, and it enables broad community participation through its support and engagement programs.
@@ -73,12 +72,18 @@ include 'config.php';
 
 
                 <h4 class="question">What is a ReFigure?</h4>
-                <p class="paragraph-style">A ReFigure is a user-generated collection of figures from different scientific publications. They may be created to address a specific hypothesis, or might be a collection of results that are tied together by a single element (e.g. SARS-CoV-2 pre-clinical models, or validated anti-spike protein antibody clones). ReFigure is free to use and ReFigures can be created by anyone. If you would like to create a ReFigure and/or have it featured in CoVis <a href="faqs#contribute">please reach out</a>.
+                <p class="example">
+                    <a href="./img/refigure-example.jpg" data-toggle="lightbox">
+                        <img class="shadow2 abstand" src="./img/refigure-example.jpg" alt="Screenshot Example of a ReFigure">
+                    </a>
+                    <span style="font-size: 12px;">Screenshot: Example of a ReFigure</span>
+                </p>
+                <p class="paragraph-style">A ReFigure is a user-generated collection of figures from different scientific publications. They may be created to address a specific hypothesis, or might be a collection of results that are tied together by a single element (e.g. SARS-CoV-2 pre-clinical models, or validated anti-spike protein antibody clones). <a target="_blank" href="https://refigure.org/" target="_blank">ReFigure</a> is free to use and ReFigures can be created by anyone. If you would like to create a ReFigure and/or have it featured in CoVis <a href="faqs#contribute">please reach out</a>.
                 </p>
 
                 <h4 class="question">Can I reuse CoVis?</h4>
 
-                <p class="paragraph-style">Unless otherwise noted, all content on CoVis is licensed under a Creative Commons Attribution 4.0 International License. Our software is open source and hosted on <a target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Github</a>.</p>
+                <p class="paragraph-style">Unless otherwise noted, all content on CoVis is licensed under a Creative Commons Attribution 4.0 International License. The CoVis database is made available under CC0 (Public Domain Dedication). Our software is open source and hosted on <a target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Github</a>.</p>
 
                 <h4 class="question">Can I create my own CoVis for another research topic?</h4>
 
