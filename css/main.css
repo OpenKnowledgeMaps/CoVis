@@ -189,7 +189,7 @@ ol {
     font-weight: 300;
 }
 
-ol li {
+ul li, ol li {
     padding: 0px 0px 20px;
 }
 
