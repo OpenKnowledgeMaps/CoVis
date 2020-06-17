@@ -7,7 +7,7 @@ body {
     padding: 0px;
     width:100%; 
     color: #333;
-    font-size: 18px;
+    font-size: 20px;
     background-color: #f7f7f7;
     margin: 0;
 }
@@ -22,6 +22,7 @@ header {
 a {
     color: #1e6662;
     text-decoration: underline;
+    font-weight: normal;
 }
 
 .about {
@@ -129,6 +130,13 @@ a {
     font-weight: 300;
 }
 
+.anchor {
+    display: block;
+    height: 110px;
+    margin-top: -116px;
+    visibility: hidden;
+}
+
 /*Footer*/
 .credits {
     padding-left: 20px; 
@@ -178,6 +186,7 @@ footer a {
 
 ol {
     padding-left: 20px;
+    font-weight: 300;
 }
 
 ol li {
@@ -194,10 +203,12 @@ ol li {
     margin: 0px;
     font-size: 24px;
     line-height: 150%;;
+    font-weight: normal;
 }
 
 .paragraph-style li {
     margin-left: 40px;
+    font-weight: 300;
 }
 
 .page-section {
@@ -226,6 +237,7 @@ ol li {
 .paragraph-style {
     padding: 0px 0 20px;
     margin: 0;
+    font-weight: 300;
 }
 
 .shadow2 {
@@ -296,7 +308,7 @@ img {
         font-size: 30px;
     }
 
-    .about-paragraph, .search-btn, .link1, .contribution h3, .contact-btn, .question { 
+    .about-paragraph, .search-btn, .link1, .contribution h3, .contact-btn, .question, body { 
         font-size: 18px;
     }
 

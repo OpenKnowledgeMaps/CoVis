@@ -32,13 +32,13 @@ include 'config.php';
                 <p class="paragraph-style">The articles and ReFigures in CoVis are curated by a team of curators and contributors. Resources are nominated based on the interest of the individual contributor and posed for inclusion along with the rationale for inclusion. The nominated resources are discussed by curators as to their exhibited impact, or potential impact for moving the field forward. This collection is not exhaustive, but rather a single reference point for definitive research in select areas of coronavirus and COVID-19 research to accelerate the research and knowledge of researchers without prior experience in this field. However, we believe that careful, open curation makes this a resource for even experienced researchers.
                 </p>
 
-                <a name="contribute"></a>
+                <a class="anchor" name="contribute"></a>
                 <h4 class="question">How can I contribute to CoVis?</h4>
 
                 <p class="paragraph-style">There are several ways to contribute to COVIS:</p>
 
                 <ol>
-                    <li>To connect with CoVis or propose research resources, please fill out this short form.</li>
+                    <li>To connect with CoVis or propose research resources, please <a href="">fill out this short form</a>.</li>
                     <li>If you would like to create your own collections and interpretations of research findings, <a target="_blank" href="https://refigure.org/signup/">sign up as a ReFigure user here</a>. Once you have signed up, you can find a tutorial of <a target="_blank" href="https://www.youtube.com/watch?v=FxGLRB6y0tc">how to create ReFigure collections here</a>. After you have created your coronavirus related ReFigure, please send us an email at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a> to begin a discussion with us.
                     </li>
                 </ol>
@@ -52,7 +52,7 @@ include 'config.php';
 
                 <p class="paragraph-style"><a target="_blank" href="https://refigure.org/" target="_blank">ReFigure</a> is the flagship platform created by Scimpact, LLC, a social-impact startup with the mission to re-imagine the way scientific results are communicated. With a growing community of users, ReFigure makes research results more interactive to scientists of all training levels. ReFigure has demonstrated impact across scientific disciplines to encourage critical review, comparison and curation of scientific results through its novel, web-native platform.</p>
 
-                <a name="knowledge-map"></a>
+                <a class="anchor" name="knowledge-map"></a>
                 <h4 class="question">What is a knowledge map?</h4>
 
                 <p class="example">
@@ -66,14 +66,14 @@ include 'config.php';
                 </p>
                 <p class="paragraph-style">The knowledge map is based on the award-winning open source software <a target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Head Start</a> developed by Open Knowledge Maps. Head Start is capable of creating knowledge maps from a variety of data, including text, metadata and references. The visual interface allows the user to explore a large amount of resources with ease on a single page; those that are open access can be downloaded directly from the interface. If you have any questions please get in touch with team Open Knowledge Maps at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a></p>
 
-                <a name="methodology"></a>
+                <a class="anchor" name="methodology"></a>
                 <h4 class="question">Methodology for paper inclusion</h4>
                 <p class="paragraph-style">Members of the ReFigure team nominated articles based on, first, what areas they were most interested in and, second, by determining the amount of current, or potential discussion an article might engender. Other members of the team either validated the article’s selection, or offered alternatives. The articles were then sorted and annotated with the Open Knowledge Maps team to be presented optimally in the CoVis visualization. This collection is not exhaustive, but rather provides some relevant and impactful starting points for further pursuing coronavirus research. If you would like to participate, please email us your interest at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a>.</p>
 
 
 
                 <h4 class="question">What is a ReFigure?</h4>
-                <p class="paragraph-style">A ReFigure is a user-generated collection of figures from different scientific publications. They may be created to address a specific hypothesis, or might be a collection of results that are tied together by a single element (e.g. SARS-CoV-2 pre-clinical models, or validated anti-spike protein antibody clones). ReFigure is free to use and ReFigures can be created by anyone. If you would like to create a ReFigure and/or have it featured in CoVis <a href="faq#contribute">please reach out</a>.
+                <p class="paragraph-style">A ReFigure is a user-generated collection of figures from different scientific publications. They may be created to address a specific hypothesis, or might be a collection of results that are tied together by a single element (e.g. SARS-CoV-2 pre-clinical models, or validated anti-spike protein antibody clones). ReFigure is free to use and ReFigures can be created by anyone. If you would like to create a ReFigure and/or have it featured in CoVis <a href="faqs#contribute">please reach out</a>.
                 </p>
 
                 <h4 class="question">Can I reuse CoVis?</h4>
@@ -92,7 +92,7 @@ include 'config.php';
                     This project has received funding from <a target="_blank" href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding">“COVID-19 Fast Track Funding” by EOSCSecretariat</a>.
                 </p>
                 <p class="paragraph-style">
-                    Please <a href="contact-us">get in touch</a> if you'd like to fund us.
+                    Please get in touch at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a> if you'd like to fund us.
                 </p>
 
                 <h4 class="question">I have a question that is not listed here</h4>

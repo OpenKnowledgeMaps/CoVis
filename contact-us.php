@@ -29,14 +29,18 @@ include 'config.php';
 
                 <h1 class="page-headline">Contact us</h1>
 
-                <h4 class="question">I am a subject matter expert and would like to contribute to CoVis</h4>
+                <h4 class="question">We invite subject-matter experts to contribute to CoVis</h4>
+
+                <p class="paragraph-style">There are several ways to contribute to COVIS:</p>
+
+                <ol>
+                    <li>To connect with CoVis or propose research resources, please <a href="">fill out this short form</a>.</li>
+                    <li>If you would like to create your own collections and interpretations of research findings, <a target="_blank" href="https://refigure.org/signup/">sign up as a ReFigure user here</a>. Once you have signed up, you can find a tutorial of <a target="_blank" href="https://www.youtube.com/watch?v=FxGLRB6y0tc">how to create ReFigure collections here</a>. After you have created your coronavirus related ReFigure, please send us an email at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a> to begin a discussion with us.
+                    </li>
+                </ol>
 
                 <p class="paragraph-style">
-                    If you have recommendations for a paper to be included in the platform, please send your recommendation as well as your rationale to start a discussion with us.
-                </p>
-
-                <p class="paragraph-style">
-                    Please get in touch with team ReFigure at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a>
+                    If you have any more questions on how to contribute please get in touch with team ReFigure at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a>
                 </p>
                 
 
