@@ -119,7 +119,7 @@ include 'config.php';
     <link type="text/css" rel="stylesheet" href="<?php echo $HEADSTART_PATH ?>dist/headstart.css"></link>
     <script>
             
-            data_config.server_url = "<?php echo $HEADSTART_PATH ?>server/";
+            data_config.server_url = window.location.href.replace(/[^/]*$/, '') + "<?php echo $HEADSTART_PATH ?>server/";
             data_config.files = [{
                 title: 'CoVis'
                 , file: "<?php echo $SHEET_ID; ?>"

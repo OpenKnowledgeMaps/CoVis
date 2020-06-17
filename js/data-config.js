@@ -13,6 +13,7 @@ var data_config = {
     base_unit: "questions",
     use_area_uri: true,
     preview_type: "pdf",
+    use_hypothesis: true,
     
     show_multiples: false,
     show_dropdown: false,
