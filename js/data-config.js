@@ -1,14 +1,14 @@
 var data_config = {
     tag: "visualization",
     mode: "gsheets",
-    service_name: '<a href="data" target="_blank" style="color: #1e6662;border-bottom: 1px solid #1e6662;">CoVis Knowledge Base</a>',
+    service_name: '<a href="data" target="_blank" style="color: #1e6662;border-bottom: 1px solid #1e6662;">CoVis knowledge base</a>',
     
     bubble_min_scale: 1.1,
     bubble_max_scale: 1.1,
     
     paper_min_scale: 1,
 
-    title: "Knowledge Map of <b>COVID-19 research</b>",
+    title: "Knowledge map of <b>COVID-19 research</b>",
     input_format: "json",
     base_unit: "questions",
     use_area_uri: true,
