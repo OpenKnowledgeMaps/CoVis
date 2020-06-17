@@ -65,12 +65,6 @@ include 'config.php';
                 </p>
                 <p class="paragraph-style">The knowledge map is based on the award-winning open source software <a target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Head Start</a> developed by Open Knowledge Maps. Head Start is capable of creating knowledge maps from a variety of data, including text, metadata and references. The visual interface allows the user to explore a large amount of resources with ease on a single page; those that are open access can be downloaded directly from the interface. If you have any questions please get in touch with team Open Knowledge Maps at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a></p>
 
-                <a class="anchor" name="methodology"></a>
-                <h4 class="question">Methodology for paper inclusion</h4>
-                <p class="paragraph-style">Members of the ReFigure team nominated articles based on, first, what areas they were most interested in and, second, by determining the amount of current, or potential discussion an article might engender. Other members of the team either validated the article’s selection, or offered alternatives. The articles were then sorted and annotated with the Open Knowledge Maps team to be presented optimally in the CoVis visualization. This collection is not exhaustive, but rather provides some relevant and impactful starting points for further pursuing coronavirus research. If you would like to participate, please email us your interest at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a>.</p>
-
-
-
                 <h4 class="question">What is a ReFigure?</h4>
                 <p class="example">
                     <a href="./img/refigure-example.jpg" data-toggle="lightbox">
