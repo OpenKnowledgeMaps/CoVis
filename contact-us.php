@@ -35,7 +35,7 @@ include 'config.php';
                 
                 <ul class="paragraph-style">
                     <li>To propose research resources or provide feedback on CoVis, please <a href="">fill out this short form</a>.</li>
-                    <li>If you would like to create your own collections and interpretations of research findings around key issues, such as whether a drug is effective, we suggest creating a ReFigure. A ReFigure is a user-generated collection of figures from different scientific publications that can be included in the knowledge map. 
+                    <li>If you would like to create your own collections and interpretations of research findings around key issues, such as whether a drug is effective, we suggest creating a ReFigure. A ReFigure is a user-generated collection of figures from different scientific publications that can be included in the knowledge map.<br>
 You can <a target="_blank" href="https://refigure.org/signup/">sign up as a ReFigure user here</a>. Once you have signed up, you can find a tutorial of <a target="_blank" href="https://www.youtube.com/watch?v=FxGLRB6y0tc">how to create ReFigure collections here</a>. After you have created your coronavirus related ReFigure, please send us an email at <a href="mailto:contactrefigure@gmail.com">contactrefigure@gmail.com</a> to begin a discussion with us.
                     </li>
                 </ul>
