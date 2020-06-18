@@ -73,7 +73,7 @@ include 'config.php';
                     </a>
                     <span style="font-size: 12px;">Screenshot: Example of a ReFigure</span>
                 </p>
-                <p class="paragraph-style">A ReFigure is a user-generated collection of figures from different scientific publications. They may be created to address a specific hypothesis, or might be a collection of results that are tied together by a single element (e.g. SARS-CoV-2 pre-clinical models, or validated anti-spike protein antibody clones). <a target="_blank" href="https://refigure.org/" target="_blank">ReFigure</a> is free to use and ReFigures can be created by anyone. If you would like to create a ReFigure and/or have it featured in CoVis <a href="faqs#contribute">please reach out</a>.
+                <p class="paragraph-style">A ReFigure is a user-generated collection of figures from different scientific publications. They may be created to address a specific hypothesis, or might be a collection of results that are tied together by a single element (e.g. SARS-CoV-2 pre-clinical models, or validated anti-spike protein antibody clones). <a target="_blank" href="https://refigure.org/" target="_blank">ReFigure</a> is free to use and ReFigures can be created by anyone. If you would like to create a ReFigure and/or have it featured in CoVis <a href="contact-us">please reach out</a>.
                 </p>
 
                 <h4 class="question">Can I reuse CoVis?</h4>
