@@ -22,7 +22,7 @@ include 'config.php';
                 <h1 class="headline">Discover reliable COVID-19 research</h1>
 
                 <p class="about-paragraph">
-                    For the development of therapeutics and vaccines for COVID-19, scientists need reliable research results. To support them, Open Knowledge Maps and ReFigure have launched CoVis: a curated knowledge map of seminal works on COVID-19 from eight critical areas of biomedical research. The knowledge map is constantly evolving thanks to the collective editing of subject-matter experts.
+                    For the development of therapeutics and vaccines for COVID-19, scientists depend on reliable research results. To support them, Open Knowledge Maps and ReFigure have launched CoVis: a curated knowledge map of seminal works on COVID-19 from eight critical areas of biomedical research. The knowledge map is constantly evolving thanks to the collective editing of subject-matter experts.
                 </p>
                 <p class="about-paragraph">CoVis enables you to spend less time reviewing coronavirus literature and more time on your research.</p>
                 <p>
