@@ -18,6 +18,7 @@
 .errors-info {
     line-height: 110% !important;
     z-index: 99;
+    font-family: 'Lato', sans-serif !important;
     position: relative;
 }
 
