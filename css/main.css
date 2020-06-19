@@ -114,7 +114,7 @@ a {
 }
 
 .contribution {
-    background-color: #f7f7f7; 
+    background-color: white; 
     text-align: center; 
     display: block;
     padding: 50px 20px;
@@ -136,51 +136,6 @@ a {
     height: 110px;
     margin-top: -116px;
     visibility: hidden;
-}
-
-/*Footer*/
-.credits {
-    padding-left: 20px; 
-    /*padding-bottom: 20px;*/ 
-    display: inline-block;
-    padding-top: 20px;
-    text-align: right;
-    width: 65%;
-    vertical-align: middle;
-}
-
-.credits2 {
-    /*padding-top: 20px;*/
-    text-transform: none; 
-    color: #f7f7f7; 
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
-    padding-left: 50px;
-    width: 28%;
-}
-
-footer {
-    background-color: white;
-    padding: 20px 0;
-    font-size: 18px;
-    color: #333;
-    line-height: 1;
-}
-
-footer a {
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-    font-weight: 700;
-    margin-right: 10px;
-    color: #1e6662;
-}
-
-.partner-logo2 {
-    max-height: 70px;
-    margin-left: 20px;
-    vertical-align: middle;
-    display: inline-block;
 }
 
 /*Other pages*/
@@ -258,42 +213,100 @@ img {
     display: none;
 }
 
-.mobile-footer {
-    display: none;
+/*FOOTER*/
+footer {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.2;
+    border-top: 1px solid #e7e7e7;
 }
 
-.desktop-footer {
+footer a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    color: #1e6662;
+    line-height: 120%;
+}
+
+.builtby {
+    background-color: #f7f7f7;
+    padding: 50px;
+    font-weight: 300;
+}
+
+.builtby-container {
+    max-width:1600px; 
+    width:100%; 
+    margin:0px auto; 
+    text-align:center; 
+    padding-top:20px;
+}
+
+.info h3 {
+    font-size: 20px;
+    font-family:'Lato', sans-serif;
+    font-weight: normal;
+    color: #1e6662;
+    font-style: normal;
+    margin-top: 0px;
+    padding-bottom: 18px;
+}
+
+.logoimg {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 5px;
+    height: 60px;
+    margin-top: 10px;
+    background-color:white;
+    border: 1px solid #f7f7f7;
+}
+
+.info {
+    display:inline-block; 
+    vertical-align:top;
+    font-weight: 300;
+    margin-right: 40px;
+    max-width: 22%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.info p, .info ul {
+    padding: 0 0 10px;
+    font-weight: 300 !important;
+    font-family:'Lato', sans-serif !important;
+    margin: 0px;
+}
+
+.nav_bottom {
     display: block;
-    position: relative;
+    background-color: transparent;
+    line-height: 180%;
+    padding: 0px 0px 0px;
 }
 
-.covis-funder {
-    font-size: 12px; 
-    /*text-align: center;*/ 
-    margin-top: 20px;
-
-    padding-left: 50px;
-}
-/*headstart footer*/
-.knowledge-map footer {
-    background-color: #eff3f4; /*#1e6662;*/
-    /*color: white;
-    padding: 10px 0;*/
-}
-/*
-.knowledge-map .credits {
-    padding-top: 0px;
+.nav_bottom a, .linkvar1 {
+    text-decoration: none;
+    border-bottom: 1px solid #1e6662;
+    font-style: normal;
+    font-weight: 300;
 }
 
-.knowledge-map .partner-logo2 {
-    max-height: 50px;
-    margin-left: 0px;
-    vertical-align: middle;
+.nav_bottom a:hover, .nav_bottom a:active, .nav_bottom a:focus, .linkvar1:hover,  .linkvar1:focus, .linkvar1:active {
+    text-decoration: none;
+    border-bottom: 2px solid #1e6662;
 }
 
-.knowledge-map footer a, .knowledge-map footer a:focus, .knowledge-map footer a:active, .knowledge-map footer a:hover {
-    color: white;
-}*/
+.info ul {
+    list-style: none;
+}
+
+.awesome {
+    font-family: 'FontAwesome';
+}
 
 /*Errors table*/
 
@@ -323,21 +336,11 @@ img {
     .about-text {
         max-width: 40%;
     }
+}
 
-    .credits, .mobile-footer .credits2 {
-        width: 60%;
-    }
-
-    .credits2, .mobile-footer .credits2 {
-        width: 30%;
-    }
-
-    .knowledge-map .credits { 
-        width: 52%;
-    }
-
-    .knowledge-map .credits2 {
-        width: 38%;
+@media screen and (max-width:1140px) {
+    .builtby-container {
+        text-align:left;
     }
 }
 
@@ -351,6 +354,10 @@ img {
 
     .about-image {
         display: inline-block;
+        max-width: 300px;
+    }
+    
+    .info {
         max-width: 300px;
     }
 }
@@ -367,62 +374,17 @@ img {
         display: none;
     }
 
-    .mobile-footer {
-        display: block;
-        padding: 0px;
-    }
-
-    .desktop-footer {
-        display: none;
-    }
-
-    .credits, .mobile-footer .credits { 
-        width: 100%;
-        display: block;
-        text-align: left;
-        padding-bottom: 20px;
-    }
-
-    .covis-funder {
-        text-align: center;
-    }
-
-    .credits2, .mobile-footer .credits2 {
-        width: 100%;
-        display: block;
-        padding-left: 20px;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        background-color: #1e6662;
-    }
-
-    footer a {
-        color: white;
-    }
-
-    .credits span {
-        display:block;
-        margin-bottom: 20px;
-    }
-
-    .partner-logo2 {
-        margin-left: 0px;
-        margin-right: 20px;
-    }
-
-    .mobile-footer {
-        line-height: 150%;
-    }
-
-    /*.knowledge-map .mobile-footer .credits {
-        background-color: #1e6662;
-    }*/
-
     .page-headline {
         margin-top: 0px;
     }
 
     .question {
         padding: 20px 0 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .builtby {
+        padding: 20px;
     }
 }

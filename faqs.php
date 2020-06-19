@@ -25,7 +25,7 @@ include 'config.php';
                 <h4 class="question">What is the idea behind CoVis and how did it come about?
                 </h4>
                 <p class="paragraph-style">This knowledge map was created with the intent to make important biomedical laboratory research on coronavirus infection and COVID-19 disease more discoverable. The collection is not meant to be exhaustive, but to offer highlights that are a jumping off point in eight key areas: immunity, vaccines, therapeutics, diagnostics, viral biology, host biology and clinical findings and epidemiology. After careful review and discussion with users from both of our intended audiences, we added an additional area, introduction to coronavirus research, which includes foundational papers in coronavirus research to those who have no prior background. Selected articles within each category have been included based on the collective review of our editorial team with consideration to the potential impact and novelty of the findings, as well as the potential to encourage and bring forward important questions during this dynamic time. New content and categories can be proposed for CoVis. For more information please <a href="contact-us">view our contact page</a>.</p>
-                
+
                 <a class="anchor" name="methodology"></a>
                 <h4 class="question">How do you decide what is included / excluded in the knowledge map?
                 </h4>
@@ -40,11 +40,11 @@ include 'config.php';
 
 
                 <h4 class="question">Who is behind CoVis?</h4>
-                
+
                 <p class="paragraph-style">
                     CoVis is a collaboration project of Open Knowledge Maps and ReFigure.
                 </p>
-                
+
                 <p class="paragraph-style">
                     <a href="https://openknowledgemaps.org" target="_blank">Open Knowledge Maps</a> is a charitable nonprofit organization dedicated to improving the visibility of
                     scientific knowledge for science and society. As part of its mission, Open Knowledge Maps operates the world’s largest visual search engine for research, which enables a diverse set of audiences to explore, discover and make use of scientific content. In addition, Open Knowledge Maps carries out training events to improve literature search skills, and it enables broad community participation through its support and engagement programs.
@@ -103,7 +103,7 @@ include 'config.php';
 
             </div>
         </div>
-
+        <?php include('contribute-research.php') ?>
         <?php include('footer.php') ?>
     </body>
 
