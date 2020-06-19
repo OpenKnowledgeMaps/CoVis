@@ -56,8 +56,8 @@ include 'config.php';
                 <h4 class="question">What is a knowledge map?</h4>
 
                 <p class="example">
-                    <a href="./img/knowledgemap-covid-19.png" data-toggle="lightbox">
-                        <img class="shadow2 abstand" src="./img/knowledgemap-covid-19.png" alt="Screenshot Knowledge Map on COVID-19 research">
+                    <a href="knowledge-map">
+                        <img class="shadow2 abstand" src="./img/knowledgemap-covid-19.jpg" alt="Screenshot Knowledge Map on COVID-19 research">
                     </a>
                     <span style="font-size: 12px;">Screenshot: Knowledge Map on COVID-19 research</span>
                 </p>
@@ -68,7 +68,7 @@ include 'config.php';
 
                 <h4 class="question">What is a ReFigure?</h4>
                 <p class="example">
-                    <a href="./img/refigure-example.jpg" data-toggle="lightbox">
+                    <a target="_blank" href="https://refigure.org/">
                         <img class="shadow2 abstand" src="./img/refigure-example.jpg" alt="Screenshot Example of a ReFigure">
                     </a>
                     <span style="font-size: 12px;">Screenshot: Example of a ReFigure</span>
