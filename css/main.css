@@ -220,6 +220,7 @@ footer {
     color: #333;
     line-height: 1.2;
     border-top: 1px solid #e7e7e7;
+    z-index: 99;
 }
 
 footer a {
@@ -234,6 +235,8 @@ footer a {
     background-color: #f7f7f7;
     padding: 50px;
     font-weight: 300;
+    position: relative;
+    display: block;
 }
 
 .builtby-container {
