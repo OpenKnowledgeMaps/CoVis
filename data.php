@@ -23,15 +23,19 @@ include 'config.php';
                 <h1 class="page-headline">Data Source</h1>
 
                 <p class="paragraph-style">
-                    Below you can find the spreadsheet with select seminal works on COVID-19 research on which the <a href="knowledge-map">COVID-19 knowledge map</a> is based on. The spreadsheet is curated by subject matter experts.
+                    Below you can find the spreadsheet with select seminal works on COVID-19 research on which the <a href="knowledge-map">COVID-19 knowledge map</a> is based on. The curation of the spreadsheet is led by immunologists and ReFigure founders Dr. Girija Goyal and Dr. James Akin. 
                 </p>
 
                 <p class="paragraph-style"> 
-                    If you are a subject matter expert and want to support us in curating the knowledge map, please <a href="contact-us">get in touch</a>.
+                    If you are a subject-matter expert and want to support us in curating the knowledge map, please <a href="contact-us">get in touch</a>.
                 </p>
 
                 <p class="paragraph-style">
-                    The CoVis database is made available under CC0 (Public Domain Dedication).
+                    The CoVis database is made available under <a target="_blank" href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 (Public Domain Dedication)</a>.
+                </p>
+                
+                <p class="paragraph-style">
+                    <a target="_blank" href="https://creativecommons.org/share-your-work/public-domain/cc0/"><img src="https://licensebuttons.net/p/zero/1.0/88x31.png"></a>
                 </p>
 
                 <p class="paragraph-style">

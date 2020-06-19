@@ -7,7 +7,7 @@
             <a href="https://refigure.org/" target="_blank"><img class="logoimg" style="margin-right:10px" src="https://openknowledgemaps.org/img/partners/refigure.png" alt="ReFigure Logo"></a>
             </p>
 
-            <p>This project received funding from EOSCSecretariat.<br>
+            <p>CoVis is financially supported by EOSCSecretariat.<br>
             <a href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding" target="_blank"><img style="height:40px; margin-top: 10px !important;" src="./img/funder-logo.png" alt="EOSCSecretariat Logo"></a>
             </p>
         </div>
@@ -22,9 +22,9 @@
         <div class="info">
             <address style="margin-bottom: 0 !important;"><h3 style="margin-bottom: 10px !important;">Get in touch</h3>
                 <ul class="nav_bottom">
-                    <li><a href="contact-us"><span class="awesome">&#xf003;</span> Contact details</a></li>
-                    <li><a href="https://twitter.com/ok_maps" target="_blank"><span class="awesome">&#xf099;</span> twitter.com/OK_Maps</a></li>
-                    <li><a href="https://twitter.com/re_figure" target="_blank"><span class="awesome">&#xf099;</span> twitter.com/re_figure</a> </li>              
+                    <li><a href="contact-us"><i class="far fa-envelope"></i> Contact details</a></li>
+                    <li><a href="https://twitter.com/ok_maps" target="_blank"><i class="fab fa-twitter"></i> twitter.com/OK_Maps</a></li>
+                    <li><a href="https://twitter.com/re_figure" target="_blank"><i class="fab fa-twitter"></i> twitter.com/re_figure</a> </li>              
                 </ul>
             </address>
         </div>
@@ -32,9 +32,9 @@
         <div class="info" style="margin-right: 0px;">
             <h3 style="margin-bottom: 10px !important;">Details</h3>
             <ul class="nav_bottom">
-                <li><a href="https://openknowledgemaps.org/imprint" target="_blank"><span class="awesome">&#xf0c1;</span>Legal Notice / Impressum</a></li>
-                <li><a href="https://openknowledgemaps.org/privacy" target="_blank"><span class="awesome">&#xf023;</span> Privacy Policy</a></li>
-                <li><a href="https://openknowledgemaps.org/datenschutz" target="_blank"><span class="awesome">&#xf023;</span> Datenschutzerklärung</a></li>
+                <li><a href="https://openknowledgemaps.org/imprint" target="_blank"><i class="fas fa-link"></i> Legal Notice / Impressum</a></li>
+                <li><a href="https://openknowledgemaps.org/privacy" target="_blank"><i class="fas fa-lock"></i> Privacy Policy</a></li>
+                <li><a href="https://openknowledgemaps.org/datenschutz" target="_blank"><i class="fas fa-lock"></i> Datenschutzerklärung</a></li>
                 
             </ul>
         </div>
