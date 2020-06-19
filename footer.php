@@ -2,7 +2,7 @@
     <div class="builtby-container">
         <div class="info">
             <h3 style="margin-bottom: 10px !important;">CoVis</h3>
-            <p>CoVis is a collaboration project of Open Knowledge Maps and ReFigure
+            <p>CoVis is a collaboration project of Open Knowledge Maps and ReFigure<br>
             <a href="https://openknowledgemaps.org/" target="_blank"><img class="logoimg" style="margin-right:10px" src="https://openknowledgemaps.org/img/logos/Logo-Open-Knowledge-Maps-BGwhite.png" alt="Open Knowledge Maps Logo"></a>
             <a href="https://refigure.org/" target="_blank"><img class="logoimg" style="margin-right:10px" src="https://openknowledgemaps.org/img/partners/refigure.png" alt="ReFigure Logo"></a>
             </p>
