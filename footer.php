@@ -22,7 +22,7 @@
         <div class="info">
             <address style="margin-bottom: 0 !important;"><h3 style="margin-bottom: 10px !important;">Get in touch</h3>
                 <ul class="nav_bottom">
-                    <li><a href="contact-us"><i class="far fa-envelope"></i> Contact details</a></li>
+                    <li><a href="contact-us"><i class="fas fa-envelope"></i> Contact details</a></li>
                     <li><a href="https://twitter.com/ok_maps" target="_blank"><i class="fab fa-twitter"></i> twitter.com/OK_Maps</a></li>
                     <li><a href="https://twitter.com/re_figure" target="_blank"><i class="fab fa-twitter"></i> twitter.com/re_figure</a> </li>              
                 </ul>
