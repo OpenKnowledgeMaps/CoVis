@@ -325,22 +325,22 @@ footer a {
 
 /*Cookie banner*/
 .cc-color-override-446009254.cc-window {
-    color: #333;
-    background-color: white;
+    color: #333 !important;
+    background-color: white !important;
     border-top: 1px solid #e7e7e7;
 }
 
 .cc-color-override-446009254 .cc-btn {
     color: rgb(255, 255, 255);
     border-color: transparent;
-    background-color: #1e6662;
+    background-color: #1e6662 !important;
     border-radius: 17px;
     -moz-border-radius: 17px;
     -webkit-border-radius: 17px;
 }
 
 .cc-color-override-446009254 .cc-btn:hover, .cc-color-override-446009254 .cc-btn:focus {
-    background-color: transparent;
+    background-color: transparent !important;
     color: #1e6662;
 }
 
