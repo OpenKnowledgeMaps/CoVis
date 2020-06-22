@@ -323,6 +323,27 @@ footer a {
     color: white;
 }
 
+/*Cookie banner*/
+.cc-color-override-446009254.cc-window {
+    color: #333;
+    background-color: white;
+    border-top: 1px solid #e7e7e7;
+}
+
+.cc-color-override-446009254 .cc-btn {
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    background-color: #1e6662;
+    border-radius: 17px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+}
+
+.cc-color-override-446009254 .cc-btn:hover, .cc-color-override-446009254 .cc-btn:focus {
+    background-color: transparent;
+    color: #1e6662;
+}
+
 @media screen and (max-width: 1200px) {
 
     .headline, .page-headline {
@@ -356,7 +377,7 @@ footer a {
         display: inline-block;
         max-width: 300px;
     }
-    
+
     .info {
         max-width: 300px;
     }
