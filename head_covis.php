@@ -1,22 +1,38 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <?php
 
+include "config.php";
+
+$protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
+
 if($EXTERNAL_COMPONENTS) {
     
     $default_labels = array(
         "title" => "CoVis - Discover reliable COVID-19 research"
         , "app-name" => "CoVis"
         , "description" => "CoVis provides a curated knowledge map of seminal works on COVID-19 research. The knowledge map is constantly evolving thanks to the collective editing of subject-matter experts."
-        , "url" => (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"
-        , "twitter-type" => "summary"
-        , "twitter-image" => ""
-        , "fb-image" => ""
+        , "url" => $protocol . "//$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"
+        , "twitter-type" => "summary_large_image"
+        , "twitter-image" => $protocol . $SITE_URL. "img/TwitterCard.png"
+        , "fb-image" => $protocol . $SITE_URL. "img/FacebookCard.png"
     );
     
     include $EXTERNAL_COMPONENTS_PATH . "head_components/meta_tags.php";
 }
 
 ?>
+
+<!-- FAVICONS -->
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $protocol . $SITE_URL ?>apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo $protocol . $SITE_URL ?>favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo $protocol . $SITE_URL ?>favicon-16x16.png">
+<link rel="manifest" href="<?php echo $protocol . $SITE_URL ?>site.webmanifest">
+<link rel="mask-icon" href="<?php echo $protocol . $SITE_URL ?>safari-pinned-tab.svg" color="#263d54">
+<link rel="shortcut icon" href="<?php echo $protocol . $SITE_URL ?>favicon.ico">
+<meta name="apple-mobile-web-app-title" content="CoVis">
+<meta name="application-name" content="CoVis">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 
 <link type="text/css" rel="stylesheet" href="./css/menu.css">
 <link type="text/css" rel="stylesheet" href="./css/main.css">

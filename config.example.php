@@ -1,4 +1,5 @@
 <?php
+$SITE_URL = "//localhost/covis/";
 $HEADSTART_PATH = "../../";
 $EXTERNAL_COMPONENTS = false;
 $EXTERNAL_COMPONENTS_PATH = "../components/";
