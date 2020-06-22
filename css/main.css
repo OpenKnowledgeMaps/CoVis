@@ -141,12 +141,7 @@ a {
 
 /*Other pages*/
 
-ol {
-    padding-left: 20px;
-    font-weight: 300;
-}
-
-ul li, ol li {
+.list-style li, .list-style li {
     padding: 0px 0px 20px;
 }
 
@@ -301,6 +296,7 @@ footer a {
 
 .nav_bottom a:hover, .nav_bottom a:active, .nav_bottom a:focus, .linkvar1:hover,  .linkvar1:focus, .linkvar1:active {
     text-decoration: none;
+    color: #1e6662 !important;
     border-bottom: 2px solid #1e6662;
 }
 

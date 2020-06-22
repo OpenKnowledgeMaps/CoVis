@@ -78,7 +78,7 @@ include 'config.php';
 
                 <h4 class="question">Can I reuse CoVis?</h4>
 
-                <p class="paragraph-style">Unless otherwise noted, all content on CoVis is licensed under a Creative Commons Attribution 4.0 International License. The CoVis database is made available under CC0 (Public Domain Dedication). Our software is open source and hosted on <a target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Github</a>.</p>
+                <p class="paragraph-style">Unless otherwise noted, all content on CoVis is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>. The CoVis database is made available under <a target="_blank" href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 (Public Domain Dedication)</a>. Our software is open source and hosted on <a target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Github</a>.</p>
 
                 <h4 class="question">Can I create my own CoVis for another research topic?</h4>
 
