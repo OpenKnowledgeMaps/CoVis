@@ -137,31 +137,34 @@ include 'config.php';
             let height = $(window).height();
             let width = $(window).width();
             let calculated_height = 0;
-            
-            console.log("Height: " +height)
-            console.log("Width: " +width)
+            let calculation_method = "";
 
             if(height <= 730 || width < 904 || (width >= 985 && width  < 1070)) {
-                console.log("Height calculation min_height");
+                calculation_method = "Height calculation min_height";
                 calculated_height = 689;              
              } else if (width >= 904 && width <= 984) {
-                 console.log("Height calculation no. 1")
+                 calculation_method = "Height calculation no. 1";
                 calculated_height = 670 + (width - 904);
             } else if (height >= 890 && width >= 1070 && width < 1400) {
-                console.log("Height calculation no. 2");
+                calculation_method = "Height calculation no. 2";
                 calculated_height = 670 + (width - 1070)/2;
             } else if (width >= 1441 && height >= 1053) {
-                console.log("Height calculation large");
+                calculation_method = "Height calculation large";
                 calculated_height = 1000; 
             } else if (height >= 988 && height < 1053 && width >= 1404 && width < 1435) {
-                console.log("Height calculation no. 3");
+                calculation_method = "Height calculation no. 3";
                 calculated_height = 670 + (width - 1170);
             }  else {
-                console.log("Height calculation default")
+                calculation_method = "Height calculation default";
                 calculated_height = $(window).height() - $("header").outerHeight();
             }
             
-            console.log("Calculated height: " +calculated_height)
+            <?php if(isset($DEBUG) && $DEBUG === true): ?>
+                console.log("Height: " +height);
+                console.log("Width: " +width);
+                console.log("Calculation method: " +calculation_method);
+                console.log("Calculated height: " +calculated_height);
+            <?php endif; ?>
 
             return calculated_height;
         }
