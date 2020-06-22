@@ -328,9 +328,11 @@ footer a {
     color: #333 !important;
     background-color: white !important;
     border-top: 1px solid #e7e7e7;
+    font-family: 'Lato', sans-serif !important;
 }
 
 .cc-color-override-446009254 .cc-btn {
+    font-family: 'Lato', sans-serif;
     color: rgb(255, 255, 255);
     border-color: transparent;
     background-color: #1e6662 !important;
@@ -344,6 +346,7 @@ footer a {
     background-color: transparent !important;
     color: #1e6662;
     border: 3px solid #1e6662;
+    text-decoration: none !important;
 }
 
 @media screen and (max-width: 1200px) {
