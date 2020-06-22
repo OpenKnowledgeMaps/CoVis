@@ -337,11 +337,13 @@ footer a {
     border-radius: 17px;
     -moz-border-radius: 17px;
     -webkit-border-radius: 17px;
+    border: 3px solid transparent;
 }
 
 .cc-color-override-446009254 .cc-btn:hover, .cc-color-override-446009254 .cc-btn:focus {
     background-color: transparent !important;
     color: #1e6662;
+    border: 3px solid #1e6662;
 }
 
 @media screen and (max-width: 1200px) {
