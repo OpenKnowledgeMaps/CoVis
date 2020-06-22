@@ -340,6 +340,7 @@ footer a {
     -moz-border-radius: 17px;
     -webkit-border-radius: 17px;
     border: 3px solid transparent;
+    text-decoration: none !important;
 }
 
 .cc-color-override-446009254 .cc-btn:hover, .cc-color-override-446009254 .cc-btn:focus {
