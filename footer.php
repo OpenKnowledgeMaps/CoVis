@@ -30,7 +30,7 @@
         </div>
 
         <div class="info" style="margin-right: 0px;">
-            <h3 style="margin-bottom: 10px !important;">Details</h3>
+            <h3 style="margin-bottom: 10px !important;">Legal and privacy</h3>
             <ul class="nav_bottom">
                 <li><a href="https://openknowledgemaps.org/imprint" target="_blank"><i class="fas fa-link"></i> Legal Notice / Impressum</a></li>
                 <li><a href="https://openknowledgemaps.org/privacy" target="_blank"><i class="fas fa-lock"></i> Privacy Policy</a></li>

@@ -30,7 +30,7 @@ include 'config.php';
                 </p>
 
                 <p class="paragraph-style">
-                    The <a href="knowledge-map">COVID-19 knowledge map</a> is based on a spreadsheet with select seminal works on COVID-19 research. The curation of the spreadsheet is led by immunologists and ReFigure founders Dr. Girija Goyal and Dr. James Akin. 
+                    The <a href="knowledge-map">COVID-19 knowledge map</a> is based on a spreadsheet with select seminal works on COVID-19 research. The curation of the database is led by immunologists and ReFigure founders Dr. Girija Goyal and Dr. James Akin. 
                 </p>
                 
                 <p class="paragraph-style">

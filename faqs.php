@@ -24,13 +24,14 @@ include 'config.php';
 
                 <h4 class="question">What is the idea behind CoVis and how did it come about?
                 </h4>
-                <p class="paragraph-style">This knowledge map was created with the intent to make important biomedical laboratory research on coronavirus infection and COVID-19 disease more discoverable. The collection is not meant to be exhaustive, but to offer highlights that are a jumping off point in eight key areas: immunity, vaccines, therapeutics, diagnostics, viral biology, host biology and clinical findings and epidemiology. After careful review and discussion with our users, we added an additional area, introduction to coronavirus research, which includes foundational papers in coronavirus research to those who have no prior background. Selected articles within each category have been included based on the collective review of our editorial team with consideration to the potential impact and novelty of the findings, as well as the potential to encourage and bring forward important questions during this dynamic time. New content and categories can be proposed for CoVis. For more information please <a href="contact-us">view our contact page</a>.</p>
+                <p class="paragraph-style">CoVis was created with the intent to make important biomedical laboratory research on coronavirus infection and COVID-19 disease more discoverable. The collection is not meant to be exhaustive, but to offer a single reference point for definitive research in eight key areas: immunity, vaccines, therapeutics, diagnostics, viral biology, host biology and clinical findings and epidemiology. After careful review and discussion with our users, we added an additional area, introduction to coronavirus research, which includes foundational papers in coronavirus research to those who have no prior background. Selected articles within each category have been included based on the collective review of our editorial team.
+                    <br><br>One goal of CoVis is to accelerate the research and knowledge of researchers without prior experience in this field. However, we believe that careful, open curation makes this a resource even for experienced researchers in this dynamic time. New content and categories can be proposed for CoVis. For more information please <a href="contact-us">view our contact page</a>.</p>
 
                 <a class="anchor" name="methodology"></a>
-                <h4 class="question">How do you decide what is included / excluded in the knowledge map?
+                <h4 class="question">How do you decide what is included in the knowledge map?
                 </h4>
 
-                <p class="paragraph-style">The articles and ReFigures in CoVis are curated by a team of curators and contributors led by immunologists and ReFigure founders Dr. Girija Goyal and Dr. James Akin. Resources are nominated based on the interest of the individual contributor and posed for inclusion along with the rationale for inclusion. The nominated resources are discussed by curators as to their exhibited impact, or potential impact for moving the field forward. This collection is not exhaustive, but rather a single reference point for definitive research in select areas of coronavirus and COVID-19 research to accelerate the research and knowledge of researchers without prior experience in this field. However, we believe that careful, open curation makes this a resource for even experienced researchers.
+                <p class="paragraph-style">The articles, datasets and ReFigures in CoVis are curated by an editorial team  led by immunologists and ReFigure founders Dr. Girija Goyal and Dr. James Akin. Resources are nominated based on the interest of the individual contributor and posed for inclusion along with the rationale for inclusion. The nominated resources are discussed by curators as to their exhibited impact, or potential impact for moving the field forward.
                 </p>
 
                 <a class="anchor" name="contribute"></a>
@@ -78,7 +79,7 @@ include 'config.php';
 
                 <h4 class="question">Can I reuse CoVis?</h4>
 
-                <p class="paragraph-style">Unless otherwise noted, all content on CoVis is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>. The CoVis database is made available under <a target="_blank" href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 (Public Domain Dedication)</a>. Our software is open source and hosted on <a target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Github</a>.</p>
+                <p class="paragraph-style">Yes. CoVis is an open infrastructure following the principles of open science and can therefore be fully reused. Unless otherwise noted, all content on CoVis is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>. The CoVis database is made available under <a target="_blank" href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 (Public Domain Dedication)</a>. Our software is open source and hosted on <a target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Github</a>.</p>
 
                 <h4 class="question">Can I create my own CoVis for another research topic?</h4>
 
@@ -92,7 +93,7 @@ include 'config.php';
                     This project has received funding from <a target="_blank" href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding">“COVID-19 Fast Track Funding” by EOSCSecretariat</a>.
                 </p>
                 <p class="paragraph-style">
-                    Please get in touch at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a> if you'd like to fund us.
+                    Please get in touch at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>, if you are interested in funding CoVis or similar projects.
                 </p>
 
                 <h4 class="question">I have a question that is not listed here</h4>
