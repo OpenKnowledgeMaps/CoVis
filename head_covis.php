@@ -17,7 +17,11 @@ if($EXTERNAL_COMPONENTS) {
         , "fb-image" => $protocol . $SITE_URL. "img/FacebookCard.png"
     );
     
+    $LIB_PATH = $EXTERNAL_LIB_PATH;
+    include $EXTERNAL_COMPONENTS_PATH . "head_components/detect_lang.php";
     include $EXTERNAL_COMPONENTS_PATH . "head_components/meta_tags.php";
+    include $EXTERNAL_COMPONENTS_PATH . "head_components/cookieconsent.php";
+    include $EXTERNAL_COMPONENTS_PATH . "head_components/evaluation.php";
 }
 
 ?>
