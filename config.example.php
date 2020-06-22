@@ -3,6 +3,7 @@ $SITE_URL = "//localhost/covis/";
 $HEADSTART_PATH = "../../";
 $EXTERNAL_COMPONENTS = false;
 $EXTERNAL_COMPONENTS_PATH = "../components/";
+$EXTERNAL_LIB_PATH = "../lib/";
 $SHEET_ID = "";
 $DEBUG = false;
 $PIWIK_ENABLED = false;
