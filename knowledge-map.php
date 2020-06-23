@@ -19,6 +19,7 @@ include 'config.php';
     </header>
     <div class="topheader"></div>
     <?php include "browser_unsupported_banner.php"; ?>
+    <?php include "mobile_banner.php"; ?>
     <div id="visualization" class="headstart"></div>
     <div id="errors" class="errors-container"></div>
     <div id="reload" class="reload-button"><i class="fas fa-redo"></i><span id="reload-text"> An update is available <br><a id="reload" class="dismiss-reload">reload now</a> or <a id="dismiss-reload" class="dismiss-reload">do it later</a></span></div>
