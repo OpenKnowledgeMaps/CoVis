@@ -7,8 +7,8 @@
             <a href="https://refigure.org/" target="_blank"><img class="logoimg" style="margin-right:10px" src="https://openknowledgemaps.org/img/partners/refigure.png" alt="ReFigure Logo"></a>
             </p>
 
-            <p>CoVis is financially supported by EOSCSecretariat.<br>
-            <a href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding" target="_blank"><img style="height:40px; margin-top: 10px !important;" src="./img/funder-logo.png" alt="EOSCSecretariat Logo"></a>
+            <p>CoVis is financially supported by the EOSC Secretariat.<br>
+            <a href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding" target="_blank"><img style="height:40px; margin-top: 10px !important;" src="./img/funder-logo.png" alt="EOSC Secretariat Logo"></a>
             </p>
         </div>
 

@@ -90,7 +90,7 @@ include 'config.php';
 
                 <h4 class="question">How is CoVis funded?</h4>
                 <p class="paragraph-style">
-                    This project has received funding from <a target="_blank" href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding">“COVID-19 Fast Track Funding” by EOSCSecretariat</a>.
+                    This project has received funding from the EOSC Secretariat as part of the <a target="_blank" href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding">"COVID-19 Fast Track Funding"</a>.
                 </p>
                 <p class="paragraph-style">
                     Please get in touch at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>, if you are interested in funding CoVis or similar projects.
