@@ -32,6 +32,8 @@ var data_config = {
     scale_toolbar: false,
     
     content_based: true,
+    is_evaluation: true,
+    evaluation_service: ["ga", "matomo"],
     
     is_force_areas: true,
     area_force_alpha: 0.03,

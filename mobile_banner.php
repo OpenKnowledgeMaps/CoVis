@@ -1,7 +1,13 @@
 <?php
-    require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
-    $detect = new Mobile_Detect;
-    if ($detect->isMobile()): ?>
+
+    $is_mobile = false;
+
+    if($EXTERNAL_COMPONENTS) {
+        require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
+        $detect = new Mobile_Detect;
+        $is_mobile = $detect->isMobile();
+    }
+    if ($is_mobile): ?>
 
     <div class="alert alert-warning" id="desktop-warning">
 
