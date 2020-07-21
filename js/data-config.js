@@ -42,7 +42,7 @@ var data_config = {
     language: "eng_covis",
     
     sort_options: ["year", "title", "area"],
-    filter_options: ["all", "Journal Article", "Preprint", "ReFigure", "Review"],
+    filter_options: ["all", "Dataset", "Journal Article", "Preprint", "ReFigure", "Review"],
     filter_field: "resulttype",
     
     show_keywords: true,
@@ -111,7 +111,9 @@ var data_config = {
             filter_by_label: 'show: ',
             all: "any",
             open_access: "Open Access",
+            Dataset: "Dataset",
             "Journal Article": "Journal article",
+            List: "List",
             Preprint: "Preprint",
             ReFigure: "ReFigure",
             Review: "Review",
