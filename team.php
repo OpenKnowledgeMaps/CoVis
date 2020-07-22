@@ -46,7 +46,7 @@ include 'config.php';
 
                 </div>
 
-                <h2 class="question">UX Design & Development by Open Knowledge Maps</h2>
+                <h2 class="question">Design & Development by Open Knowledge Maps</h2>
                 <p class="paragraph-style"><a href="mailto:info@openknowledgemaps.org"><i class="far fa-envelope"></i> info@openknowledgemaps.org</a></p>
                 <div id="members">
 
