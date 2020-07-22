@@ -350,6 +350,76 @@ footer a {
     text-decoration: none !important;
 }
 
+/*Team Page*/
+.member img {
+    /*width: 100%;*/
+}
+
+.member img {
+    max-width: 165px;
+    text-align: center;
+}
+
+.member {
+    max-width: 200px;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.member ul {
+    display: block;
+    text-align:left;
+    margin-bottom: 10px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.member ul li {
+    list-style: none;
+    line-height: 140%;
+}
+
+.contact-member li {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 16px;
+    list-style: none;
+}
+
+.contact-icon {
+    text-align: center;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #eaeaea;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-icon .fa {
+    vertical-align: top;
+    top: 10px;
+    position: relative;
+}
+
+#members {
+    width:100%;
+    max-width: 1000px;
+}
+
+.name {
+    font-weight: bold;
+    color: #1e6662;
+}
+
+.job-title, .country {
+    font-weight: 300;
+}
+
 @media screen and (max-width: 1200px) {
 
     .headline, .page-headline {
@@ -389,7 +459,6 @@ footer a {
     }
 }
 
-
 @media screen and (max-width: 800px) {
 
     .about-text {
@@ -410,7 +479,24 @@ footer a {
     }
 }
 
+@media screen and (max-width:550px) {
+    
+    .member {
+        margin: 10px 10px;
+        width: 33%;
+    }
+    
+    .member img {
+        max-width:120px;
+    }
+    
+    .member ul {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width:500px) {
+    
     .builtby {
         padding: 20px;
     }
