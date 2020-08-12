@@ -80,12 +80,6 @@ include 'config.php';
                 
                 <h2 class="question">Contributions from our community</h2>
                 <p class="paragraph-style">Special thanks to all the contributions from our community: list of names (only if we are allowed to name them).</p>
-                
-                <div id="members">
-                    <div class="member">
-                        <a href="contact-us"><img src="./img/team-you.png" alt="Girija Goyal"></a>
-                    </div>
-                </div>
 
             </div>
 
