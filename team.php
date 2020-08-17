@@ -39,7 +39,7 @@ include 'config.php';
                         <img src="./img/team/james.png" alt="James">
                         <ul>
                             <li class="name">James J. Akin, Ph.D</li>
-                            <li class="job-title">ReFigure Co-Founder, Staff Scientist at Wyss Institute for Biologically Inspired Engineering at Harvard University</li>
+                            <li class="job-title">ReFigure Co-Founder, Immunologist</li>
                             <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Boston, MA, USA</li>
                         </ul>
                     </div>
@@ -48,7 +48,7 @@ include 'config.php';
                         <img src="./img/team/team-template.png" alt="Alena">
                         <ul>
                             <li class="name">Alena Lokhmanenko</li>
-                            <li class="job-title">ReFigure Intern, Student at Wellesly College</li>
+                            <li class="job-title">ReFigure Intern, Student at Wellesley College</li>
                             <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> MA, USA</li>
                         </ul>
                     </div>
@@ -57,7 +57,7 @@ include 'config.php';
                         <img src="./img/team/team-template.png" alt="Stephany">
                         <ul>
                             <li class="name">Stephany Castillo</li>
-                            <li class="job-title">ReFigure Intern, Student at University of Massachusetts</li>
+                            <li class="job-title">ReFigure Intern, Student at University of Massachusetts Boston</li>
                             <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Boston, MA, USA</li>
                         </ul>
                     </div>
