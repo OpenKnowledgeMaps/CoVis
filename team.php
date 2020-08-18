@@ -48,7 +48,7 @@ include 'config.php';
                         <img src="./img/team/team-template.png" alt="Alena">
                         <ul>
                             <li class="name">Alena Lokhmanenko</li>
-                            <li class="job-title">ReFigure Intern, Student at Wellesley College</li>
+                            <li class="job-title">ReFigure Intern, Neuroscience Student at Wellesley College</li>
                             <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> MA, USA</li>
                         </ul>
                     </div>
