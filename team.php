@@ -49,7 +49,7 @@ include 'config.php';
                         <ul>
                             <li class="name">Alena Lokhmanenko</li>
                             <li class="job-title">ReFigure Intern, Neuroscience Student at Wellesley College</li>
-                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> MA, USA</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Wellesley MA, USA</li>
                         </ul>
                     </div>
                     
