@@ -22,7 +22,7 @@ include 'config.php';
 
                 <h1 class="page-headline">Team</h1>
                 
-                <h2 class="question">Content curation & Community management by Refigure</h2>
+                <h2 class="question">Content curation & community management by <a href="https://refigure.org" target="_blank">Refigure</a></h2>
                 <p class="paragraph-style"><a href="mailto:contactrefigure@gmail.com"><i class="far fa-envelope"></i> contactrefigure@gmail.com</a></p>
                 <div id="members">
 
@@ -82,7 +82,7 @@ include 'config.php';
 
                 </div>
 
-                <h2 class="question">Design & Development by Open Knowledge Maps</h2>
+                <h2 class="question">Design & development by <a href="https://openknowledgemaps.org" target="_blank">Open Knowledge Maps</a></h2>
                 <p class="paragraph-style"><a href="mailto:info@openknowledgemaps.org"><i class="far fa-envelope"></i> info@openknowledgemaps.org</a></p>
                 <div id="members">
 
@@ -90,7 +90,7 @@ include 'config.php';
                         <img src="https://openknowledgemaps.org/img/team/peter.png" alt="Peter">
                         <ul>
                             <li class="name">Dr. Peter Kraker</li>
-                            <li class="job-title">Project Lead</li>
+                            <li class="job-title">OKMaps Founder, Project Lead</li>
                             <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Vienna, Austria</li>
                         </ul>
                     </div>
@@ -99,7 +99,7 @@ include 'config.php';
                         <img src="./img/team/team-template.png" alt="Maxi">
                         <ul>
                             <li class="name">Maxi Schramm</li>
-                            <li class="job-title">UX Designer</li>
+                            <li class="job-title">OKMaps Board Member, UX Designer</li>
                             <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Vienna, Austria</li>
                         </ul>
                     </div>
@@ -108,7 +108,7 @@ include 'config.php';
                         <img src="https://openknowledgemaps.org/img/team/chris.png" alt="Christopher">
                         <ul>
                             <li class="name">Christopher Kittel</li>
-                            <li class="job-title">Data Scientist</li>
+                            <li class="job-title">OKMaps Board Member, Data Scientist</li>
                             <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Vienna, Austria</li>
                         </ul>
                     </div>
