@@ -141,6 +141,14 @@ a {
 
 /*Other pages*/
 
+.name-list {
+    margin:0; padding: 0;
+}
+
+.name-list li {
+    display: inline-block;
+}
+
 .list-style li, .list-style li {
     padding: 0px 0px 20px;
 }
@@ -490,7 +498,7 @@ footer a {
         max-width:120px;
     }
     
-    .member ul {
+    .member ul, .name-list li {
         font-size: 14px;
     }
 }

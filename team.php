@@ -45,7 +45,7 @@ include 'config.php';
                     </div>
                     
                     <div class="member">
-                        <img src="./img/team/team-template.png" alt="Alena">
+                        <img src="./img/team/alena.png" alt="Alena">
                         <ul>
                             <li class="name">Alena Lokhmanenko</li>
                             <li class="job-title">ReFigure Intern, Neuroscience Student at Wellesley College</li>
@@ -114,8 +114,11 @@ include 'config.php';
                     </div>
                 </div>
                 
-                <!--<h2 class="question">Contributions from our community</h2>
-                <p class="paragraph-style">Special thanks to all the contributions from our community: list of names</p>-->
+                <h2 class="question">Contributions from our community</h2>
+                <p class="paragraph-style">Special thanks to all the contributions from:</p>
+                <ul class="name-list">
+                    <li>Amy Williams, PhD</li>
+                </ul>
 
             </div>
         </div>
