@@ -142,11 +142,13 @@ a {
 /*Other pages*/
 
 .name-list {
-    margin:0; padding: 0;
+    margin:0; 
+    padding: 0;
 }
 
 .name-list li {
-    display: inline-block;
+    list-style: none;
+    line-height: 150%;
 }
 
 .list-style li, .list-style li {

@@ -118,6 +118,8 @@ include 'config.php';
                 <p class="paragraph-style">Special thanks to all the contributions from:</p>
                 <ul class="name-list">
                     <li>Amy Williams, PhD</li>
+                    <li>Wyss Institute Coronavirus Therapeutics team</li>
+                    <li>Don Ingber, MD. PhD</li>
                 </ul>
 
             </div>
