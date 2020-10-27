@@ -84,7 +84,7 @@ include 'config.php';
         }
 
         function updateCheck(context) {
-            $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/GSheetUpdateAvailable.php?vis_id=<?php echo $SHEET_ID ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
+            $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/GSheetUpdateAvailable.php?vis_id=<?php echo $SHEET_ID ?>&persistence_backend=<?php echo $PERSISTENCE_BACKEND ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
                         function(output) {
                             if (output.update_available) {
                                 $("#reload").addClass("show-reload-button");
