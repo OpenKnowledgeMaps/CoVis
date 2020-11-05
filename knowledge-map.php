@@ -5,10 +5,10 @@ include 'config.php';
 <html>
 
 <head>
-    
-    <?php 
+
+    <?php
         $title = "COVID-19 Knowledge Map - CoVis";
-        include 'head_covis.php' 
+        include 'head_covis.php'
     ?>
     <link type="text/css" rel="stylesheet" href="./css/map.css">
 </head>
@@ -25,11 +25,11 @@ include 'config.php';
     <div id="reload" class="reload-button"><i class="fas fa-redo"></i><span id="reload-text"> An update is available <br><a id="reload" class="dismiss-reload">reload now</a> or <a id="dismiss-reload" class="dismiss-reload">do it later</a></span></div>
     <?php include('footer.php') ?>
     <script type="text/javascript">
-        
+
         function displayErrors(errors) {
             if(errors.length > 0) {
                 $("#errors").addClass("show-errors")
-                
+
                 let errors_info =
                     $("<p/>", {
                         id: "errors-info"
@@ -37,15 +37,15 @@ include 'config.php';
                         , html: '<i id="expand-icon" class="fa fa-plus-circle expand-icon" aria-hidden="true"/> The following errors were detected in the data sheet:</i>'
                     });
                 $("#errors").append(errors_info);
-                
+
                 let errors_table =
                      $("<table/>", {
                          id: "errors-table"
                          , class: "errors-table errors-table-hidden"
-                     });   
-                
+                     });
+
                 $("#errors").append(errors_table);
-                
+
                 $("<tr/>", {
                     id: "top-row"
                     , class: "top-row"
@@ -58,14 +58,14 @@ include 'config.php';
                     }).appendTo("#top-row");
 
                 }
-                
+
                 for (let error_num in errors) {
                     let current_id = "error-row-" + error_num;
                     $("<tr/>", {
                         id: current_id
                         , class: "error-row-entry"
                     }).appendTo("#errors-table")
-                    
+
                     for (let field of ["row", "column", "reason"]) {
                         $("<td/>", {
                             id: "error-row-row"
@@ -74,17 +74,17 @@ include 'config.php';
                         }).appendTo("#" + current_id)
                     }
                 }
-                                          
+
             }
-            
+
             $("#errors-info").on("click", function () {
                 $("#errors-table").toggleClass("errors-table-hidden");
                 $("#expand-icon").toggleClass("fa-minus-circle");
             });
         }
-        
+
         function updateCheck(context) {
-            $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/GSheetUpdateAvailable.php?vis_id=<?php echo $SHEET_ID ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
+            $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/GSheetUpdateAvailable.php?vis_id=<?php echo $SHEET_ID ?>&persistence_backend=<?php echo $PERSISTENCE_BACKEND ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
                         function(output) {
                             if (output.update_available) {
                                 $("#reload").addClass("show-reload-button");
@@ -93,7 +93,7 @@ include 'config.php';
                             }
                         });
         }
-        
+
         <?php if(isset($DEBUG) && $DEBUG === true): ?>
             function updateMap() {
                 $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/updateGSheetsMap.php?q=covis&sheet_id=<?php echo $SHEET_ID ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
@@ -103,35 +103,36 @@ include 'config.php';
 
             var update_map = window.setInterval(updateMap, 45000);
         <?php endif; ?>
-        
+
         let elem = document.getElementById('visualization');
         var check_update = null;
-        
+
         elem.addEventListener('headstart.data.loaded', function(e) {
             let errors = e.detail.data.errors;
             displayErrors(errors);
             check_update = window.setInterval(updateCheck, 6000, e.detail.data.context);
-            
+
         });
-            
+
     </script>
     <script type="text/javascript" src="./js/data-config.js"></script>
     <script type="text/javascript" src="<?php echo $HEADSTART_PATH ?>dist/headstart.js"></script>
     <link type="text/css" rel="stylesheet" href="<?php echo $HEADSTART_PATH ?>dist/headstart.css"></link>
     <script>
-            
+
             data_config.server_url = window.location.href.replace(/[^/]*$/, '') + "<?php echo $HEADSTART_PATH ?>server/";
             data_config.files = [{
                 title: 'CoVis'
                 , file: "<?php echo $SHEET_ID; ?>"
             }]
-            
+            data_config.persistence_backend = "<?php echo $PERSISTENCE_BACKEND ?>";
+
             $(document).ready(function () {
                 headstart.start();
             })
-        
+
     </script>
-        
+
     <script>
         var calcDivHeight = function () {
 
@@ -142,7 +143,7 @@ include 'config.php';
 
             if(height <= 730 || width < 904 || (width >= 985 && width  < 1070)) {
                 calculation_method = "Height calculation min_height";
-                calculated_height = 689;              
+                calculated_height = 689;
              } else if (width >= 904 && width <= 984) {
                  calculation_method = "Height calculation no. 1";
                 calculated_height = 670 + (width - 904);
@@ -151,7 +152,7 @@ include 'config.php';
                 calculated_height = 670 + (width - 1070)/2;
             } else if (width >= 1441 && height >= 1053) {
                 calculation_method = "Height calculation large";
-                calculated_height = 1000; 
+                calculated_height = 1000;
             } else if (height >= 988 && height < 1053 && width >= 1404 && width < 1435) {
                 calculation_method = "Height calculation no. 3";
                 calculated_height = 670 + (width - 1170);
@@ -159,7 +160,7 @@ include 'config.php';
                 calculation_method = "Height calculation default";
                 calculated_height = $(window).height() - $("header").outerHeight();
             }
-            
+
             <?php if(isset($DEBUG) && $DEBUG === true): ?>
                 console.log("Height: " +height);
                 console.log("Width: " +width);
@@ -178,14 +179,14 @@ include 'config.php';
                     $("#visualization").css("height", div_height + "px")
                 });
                 $(window).trigger('resize');
-                
+
                 $("#reload").on("click", function () {
                     location.reload();
                 });
-                
+
                 $("#dismiss-reload").on("click", function (event) {
                     $("#reload-text").addClass("hide-reload-text");
-                    event.stopPropagation() 
+                    event.stopPropagation()
                 });
             });
 
