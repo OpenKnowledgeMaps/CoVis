@@ -8,7 +8,9 @@ include 'config.php';
     
     <?php 
         $title = "COVID-19 Knowledge Map - CoVis";
-        include 'head_covis.php' 
+        include 'head_covis.php';
+        $km_id_get = filter_input(INPUT_GET, "id", FILTER_SANITIZE_STRING);
+        $km_id = ($km_id_get === null || $km_id_get === false)?(""):($km_id_get);
     ?>
     <link type="text/css" rel="stylesheet" href="./css/map.css">
 </head>
@@ -84,7 +86,7 @@ include 'config.php';
         }
         
         function updateCheck(context) {
-            $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/GSheetUpdateAvailable.php?vis_id=<?php echo $SHEET_ID ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
+            $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/GSheetUpdateAvailable.php?vis_id=<?php echo $km_id ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
                         function(output) {
                             if (output.update_available) {
                                 $("#reload").addClass("show-reload-button");
@@ -96,7 +98,7 @@ include 'config.php';
         
         <?php if(isset($DEBUG) && $DEBUG === true): ?>
             function updateMap() {
-                $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/updateGSheetsMap.php?q=covis&sheet_id=<?php echo $SHEET_ID ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
+                $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/updateGSheetsMap.php?q=covis&sheet_id=<?php echo $km_id ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
                             function(output) {
                             });
             }
@@ -123,7 +125,7 @@ include 'config.php';
             data_config.server_url = window.location.href.replace(/[^/]*$/, '') + "<?php echo $HEADSTART_PATH ?>server/";
             data_config.files = [{
                 title: 'CoVis'
-                , file: "<?php echo $SHEET_ID; ?>"
+                , file: "<?php echo $km_id; ?>"
             }]
             
             $(document).ready(function () {
