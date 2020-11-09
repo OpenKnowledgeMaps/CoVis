@@ -5,6 +5,13 @@ include "config.php";
 
 $protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
 
+$KNOWLEDGE_MAPS = array(
+                    array("name" => "Critical Biomedical Research"
+                            , "description" => "A curated knowledge map of seminal works on coronavirus and COVID-19 from critical areas of biomedical research.")
+                    , array("name" => "Animal Models"
+                            , "description" => "A curated knowledge map of the most reliable research on animal models for COVID-19.")
+                );
+
 if($EXTERNAL_COMPONENTS) {
     
     $default_labels = array(

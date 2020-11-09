@@ -8,7 +8,7 @@
         <!-- Mobile Menu -->
         <ul>
             <li><a href="index">About</a></li>
-            <li><a href="knowledge-map">COVID-19 Knowledge Map</a></li>
+            <li><a href="index#knowledge-maps">COVID-19 Knowledge Maps</a></li>
             <li><a href="data"><!--<i class="fas fa-pencil-alt"></i>--> Data Source</a></li>
             <li><a href="team">Team</a></li>
             <li><a href="faqs">FAQs</a></li>
@@ -30,7 +30,7 @@
 
     <ul class="nav_top">
         <li><a href="index">About</a></li>
-        <li><a href="knowledge-map">COVID-19 Knowledge Map</a></li>
+        <li><a href="index#knowledge-maps">COVID-19 Knowledge Maps</a></li>
         <li><a href="data"><!--<i class="fas fa-pencil-alt"></i>--> Data Source</a></li>
         <li><a href="team">Team</a></li>
         <li><a href="faqs">FAQs</a></li>
