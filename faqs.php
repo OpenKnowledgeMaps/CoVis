@@ -24,11 +24,11 @@ include 'config.php';
 
                 <h4 class="question">What is the idea behind CoVis and how did it come about?
                 </h4>
-                <p class="paragraph-style">CoVis was created with the intent to make important biomedical laboratory research on coronavirus infection and COVID-19 disease more discoverable. The collection is not meant to be exhaustive, but to offer a single reference point for definitive research in eight key areas: immunity, vaccines, therapeutics, diagnostics, viral biology, host biology and clinical findings and epidemiology. After careful review and discussion with our users, we added an additional area, introduction to coronavirus research, which includes foundational papers in coronavirus research to those who have no prior background. Selected articles within each category have been included based on the collective review of our editorial team.
+                <p class="paragraph-style">CoVis was created with the intent to make important biomedical laboratory research on coronavirus infection and COVID-19 disease more discoverable. The knowledge maps are not meant to be exhaustive, but to offer a single reference point for definitive research in key areas.
                     <br><br>One goal of CoVis is to accelerate the research and knowledge of researchers without prior experience in this field. However, we believe that careful, open curation makes this a resource even for experienced researchers in this dynamic time. New content and categories can be proposed for CoVis. For more information please <a href="contact-us">view our contact page</a>.</p>
 
                 <a class="anchor" name="methodology"></a>
-                <h4 class="question">How do you decide what is included in the knowledge map?
+                <h4 class="question">How do you decide what is included in the knowledge maps?
                 </h4>
 
                 <p class="paragraph-style">The articles, datasets and ReFigures in CoVis are curated by an editorial team  led by immunologists and ReFigure founders Dr. Girija Goyal and Dr. James Akin. Resources are nominated based on the interest of the individual contributor and posed for inclusion along with the rationale for inclusion. The nominated resources are discussed by curators as to their exhibited impact, or potential impact for moving the field forward.
@@ -85,7 +85,7 @@ include 'config.php';
 
                 <p class="paragraph-style">
                     CoVis is only available for COVID-19 research for now. But
-                    you can automatically create knowledge maps for any research topic on <a href="https://openknowledgemaps.org" target="_blank">openknowledgemaps.org</a>. These knowledge maps are based on 150 mio. documents from any discipline.
+                    you can automatically create knowledge maps for any research topic on <a href="https://openknowledgemaps.org" target="_blank">openknowledgemaps.org</a>. These knowledge maps are based on 250 mio. documents from any discipline.
                 </p>
 
                 <h4 class="question">How is CoVis funded?</h4>
