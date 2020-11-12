@@ -5,6 +5,7 @@ $EXTERNAL_COMPONENTS = false;
 $EXTERNAL_COMPONENTS_PATH = "../components/";
 $EXTERNAL_LIB_PATH = "../lib/";
 $SHEET_ID = array("");
+$PERSISTENCE_BACKEND = "legacy";
 $DEBUG = false;
 $PIWIK_ENABLED = false;
 $GA_ENABLED = false;
