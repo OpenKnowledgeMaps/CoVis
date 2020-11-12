@@ -24,15 +24,12 @@ include 'config.php';
                 <p class="about-paragraph">
                     For the development of therapeutics and vaccines for COVID-19, scientists depend on reliable research results. To support them, Open Knowledge Maps and ReFigure have launched CoVis: a collection of curated knowledge maps of seminal works on COVID-19 from biomedical research. The knowledge maps are constantly evolving thanks to the collective editing of subject-matter experts.
                 </p>
-                <p class="about-paragraph">CoVis enables you to spend less time reviewing coronavirus literature and more time on your research.</p>
+                <p class="about-paragraph">CoVis enables you to spend less time reviewing coronavirus literature and more time on your research. <a href="faqs" style='color: white; font-weight: 300;'>Read our FAQs</a> to find out more about the project.</p>
                 <p>
-                    <a class="search-btn" href="knowledge-map?id=<?php echo $SHEET_ID[0] ?>">View the Knowledge Map on <?php echo $KNOWLEDGE_MAPS[0]["name"] ?></a>
+                    <a class="search-btn" href="knowledge-map?id=<?php echo $SHEET_ID[0] ?>">Start with an overview of <?php echo $KNOWLEDGE_MAPS[0]["name"] ?></a>
                 </p>
                 <p class="link1">
                     <a href="index#knowledge-maps" style='color: white;'>Or select a more specialized knowledge map below</a>
-                </p>
-                <p class="link1">
-                    <a href="faqs" style='color: white;'>Read our FAQs to find out more about the project</a>
                 </p>
             </div>
 
