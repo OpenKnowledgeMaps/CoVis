@@ -96,7 +96,9 @@ include 'config.php';
 
         <?php if(isset($DEBUG) && $DEBUG === true): ?>
             function updateMap() {
-                $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/updateGSheetsMap.php?q=covis&sheet_id=<?php echo $SHEET_ID ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
+                let last_update = (typeof context !== "undefined" && context.hasOwnProperty("last_update"))?(context.last_update):("");
+                 
+                $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/updateGSheetsMap.php?q=covis&sheet_id=<?php echo $SHEET_ID ?>&gsheet_last_updated=" + encodeURIComponent(last_update),
                             function(output) {
                             });
             }
