@@ -33,8 +33,8 @@ var data_config = {
     
     content_based: true,
     is_evaluation: true,
-    evaluation_service: ["ga", "matomo"],
-    
+    evaluation_service: ["matomo"],
+
     is_force_areas: true,
     area_force_alpha: 0.03,
     papers_force_alpha: 0.2,
