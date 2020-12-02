@@ -2,13 +2,14 @@ var data_config = {
     tag: "visualization",
     mode: "gsheets",
     service_name: '<span class="backlink"><a href="data" class="underline" target="_blank" >CoVis database</a></span>',
+    persistence_backend: "api",
     
     bubble_min_scale: 1.1,
     bubble_max_scale: 1.1,
     
     paper_min_scale: 1,
 
-    title: "Knowledge map of <b>COVID-19 research</b>",
+    // title: "Knowledge map of <b>COVID-19 research</b>",
     input_format: "json",
     base_unit: "questions",
     use_area_uri: true,
@@ -25,7 +26,7 @@ var data_config = {
     show_infolink_areas: false,
 	
     show_context: true,
-    create_title_from_context: false,
+    create_title_from_context: true,
     show_context_timestamp: true,
     show_loading_screen: true,
     
