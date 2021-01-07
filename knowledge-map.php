@@ -176,11 +176,6 @@ include 'config.php';
         <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
 
             $(document).ready( function () {
-                $(window).on("resize", function () {
-                    let div_height = calcDivHeight();
-                    $("#visualization").css("height", div_height + "px")
-                });
-                $(window).trigger('resize');
 
                 $("#reload").on("click", function () {
                     location.reload();
