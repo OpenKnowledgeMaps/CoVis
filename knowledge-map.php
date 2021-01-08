@@ -160,7 +160,7 @@ include 'config.php';
                 calculated_height = 670 + (width - 1170);
             }  else {
                 calculation_method = "Height calculation default";
-                calculated_height = $(window).height() - $("header").outerHeight();
+                calculated_height = $(window).height();
             }
 
             <?php if(isset($DEBUG) && $DEBUG === true): ?>
