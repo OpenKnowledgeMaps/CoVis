@@ -154,7 +154,7 @@ include 'config.php';
                 calculated_height = 670 + (width - 1070)/2;
             } else if (width >= 1441 && height >= 1053) {
                 calculation_method = "Height calculation large";
-                calculated_height = 1000;
+                calculated_height = $(window).height();
             } else if (height >= 988 && height < 1053 && width >= 1404 && width < 1435) {
                 calculation_method = "Height calculation no. 3";
                 calculated_height = 670 + (width - 1170);
