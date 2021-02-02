@@ -22,7 +22,6 @@ include 'config.php';
     <?php include "mobile_banner.php"; ?>
     <div id="visualization" class="headstart"></div>
     <div id="errors" class="errors-container"></div>
-    <div id="reload" class="reload-button"><i class="fas fa-redo"></i><span id="reload-text"> An update is available <br><a id="reload" class="dismiss-reload">reload now</a> or <a id="dismiss-reload" class="dismiss-reload">do it later</a></span></div>
     <?php include('footer.php') ?>
     <script type="text/javascript">
 
@@ -83,17 +82,6 @@ include 'config.php';
             });
         }
 
-        function updateCheck(context) {
-            $.getJSON("<?php echo $HEADSTART_PATH ?>server/services/GSheetUpdateAvailable.php?vis_id=<?php echo $SHEET_ID ?>&persistence_backend=<?php echo $PERSISTENCE_BACKEND ?>&gsheet_last_updated=" + encodeURIComponent(context.last_update),
-                        function(output) {
-                            if (output.update_available) {
-                                $("#reload").addClass("show-reload-button");
-                                $("#reload-text").removeClass("hide-reload-text");
-                                window.clearInterval(check_update);
-                            }
-                        });
-        }
-
         <?php if(isset($DEBUG) && $DEBUG === true): ?>
             function updateMap() {
                 let last_update = (typeof context !== "undefined" && context.hasOwnProperty("last_update"))?(context.last_update):("");
@@ -107,13 +95,10 @@ include 'config.php';
         <?php endif; ?>
 
         let elem = document.getElementById('visualization');
-        var check_update = null;
 
         elem.addEventListener('headstart.data.loaded', function(e) {
             let errors = e.detail.data.errors;
             displayErrors(errors);
-            check_update = window.setInterval(updateCheck, 6000, e.detail.data.context);
-
         });
 
     </script>
@@ -181,15 +166,6 @@ include 'config.php';
                     $("#visualization").css("height", div_height + "px")
                 });
                 $(window).trigger('resize');
-
-                $("#reload").on("click", function () {
-                    location.reload();
-                });
-
-                $("#dismiss-reload").on("click", function (event) {
-                    $("#reload-text").addClass("hide-reload-text");
-                    event.stopPropagation()
-                });
             });
 
         <?php endif ?>
