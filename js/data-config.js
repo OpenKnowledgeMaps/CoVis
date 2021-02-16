@@ -128,6 +128,7 @@ var data_config = {
             embed_button_text: 'Copy',
             embed_title: 'embed map',
             embed_body_text: 'You can use this code to embed the visualization on your own website or in a dashboard.',
+            empty_area_warning: "Unfortunately there are no items matching your filter options. Please reset your filter options above to view all items in this area.",
         },
     }
 };
