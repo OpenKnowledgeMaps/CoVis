@@ -3,19 +3,18 @@
         <div class="info">
             <h3 style="margin-bottom: 10px !important;">CoVis</h3>
             <p>CoVis is a collaboration project of Open Knowledge Maps and ReFigure<br>
-            <a href="https://openknowledgemaps.org/" target="_blank"><img class="logoimg" style="margin-right:10px" src="https://openknowledgemaps.org/img/logos/Logo-Open-Knowledge-Maps-BGwhite.png" alt="Open Knowledge Maps Logo"></a>
-            <a href="https://refigure.org/" target="_blank"><img class="logoimg" style="margin-right:10px" src="https://openknowledgemaps.org/img/partners/refigure.png" alt="ReFigure Logo"></a>
+                <a href="https://openknowledgemaps.org/" target="_blank"><img class="logoimg" style="margin-right:10px" src="https://openknowledgemaps.org/img/logos/Logo-Open-Knowledge-Maps-BGwhite.png" alt="Open Knowledge Maps Logo"></a>
+                <a href="https://refigure.org/" target="_blank"><img class="logoimg" style="margin-right:10px" src="https://openknowledgemaps.org/img/partners/refigure.png" alt="ReFigure Logo"></a>
             </p>
 
-            <p>CoVis is financially supported by the EOSC Secretariat.<br>
-            <a href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding" target="_blank"><img style="height:40px; margin-top: 10px !important;" src="./img/funder-logo.png" alt="EOSC Secretariat Logo"></a>
-            </p>
+            <!--<p><img src="img/EU-flag_small-270x183.png" style="max-width: 50px;"> CoVis is financially supported by the <a href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding" target="_blank">EOSC Secretariat</a>. EOSCsecretariat.eu has received funding from the European Union's Horizon Programme call H2020-INFRAEOSC-05-2018-2019, grant Agreement number 831644.
+            </p>-->
         </div>
 
         <div class="info">
             <h3 style="margin-bottom: 10px !important;">License</h3>
             <p>Unless otherwise noted, all content on CoVis is licensed under a Creative Commons Attribution 4.0 International License. The CoVis database is made available under CC0 (Public Domain Dedication). Our software is open source and hosted on <a style="font-weight:300; text-decoration: underline;" target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Github</a>.<br>
-            <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img height="30px" style="margin-top: 10px !important;" src="https://openknowledgemaps.org/img/cc-by.png" alt="licensed under cc by"></a> 
+                <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img height="30px" style="margin-top: 10px !important;" src="https://openknowledgemaps.org/img/cc-by.png" alt="licensed under cc by"></a> 
             </p>
         </div>
 
@@ -35,9 +34,14 @@
                 <li><a href="https://openknowledgemaps.org/imprint" target="_blank"><i class="fas fa-link"></i> Legal Notice / Impressum</a></li>
                 <li><a href="https://openknowledgemaps.org/privacy" target="_blank"><i class="fas fa-lock"></i> Privacy Policy</a></li>
                 <li><a href="https://openknowledgemaps.org/datenschutz" target="_blank"><i class="fas fa-lock"></i> Datenschutzerklärung</a></li>
-                
+
             </ul>
         </div>
 
+        <div style="font-size: 10px; text-align: left;">
+            <img src="img/EU-flag_small-270x183.png" style="max-width: 50px;"> This project has received funding by <a href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding" target="_blank">EOSC Secretariat</a>. EOSCsecretariat.eu has received funding from the European Union's Horizon Programme call H2020-INFRAEOSC-05-2018-2019, grant Agreement number 831644.
+        </div>
+        
     </div>
+
 </footer>
