@@ -318,6 +318,16 @@ footer a {
     font-family: 'FontAwesome';
 }
 
+.funding-container {
+    font-size: 14px;
+}
+
+.funding-flag {
+    max-width: 50px; 
+    vertical-align: bottom; 
+    margin-right: 2px;
+}
+
 /*Errors table*/
 
 .errors-table {
@@ -442,6 +452,13 @@ footer a {
 
     .about-text {
         max-width: 40%;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .funding-text {
+        display: inline-block;
+        margin-top: 5px;
     }
 }
 
