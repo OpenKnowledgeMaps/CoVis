@@ -37,11 +37,9 @@
 
             </ul>
         </div>
-
-        <div style="font-size: 10px; text-align: left;">
-            <img src="img/EU-flag_small-270x183.png" style="max-width: 50px;"> This project has received funding by <a href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding" target="_blank">EOSC Secretariat</a>. EOSCsecretariat.eu has received funding from the European Union's Horizon Programme call H2020-INFRAEOSC-05-2018-2019, grant Agreement number 831644.
-        </div>
-        
     </div>
-
+    
+    <div style="font-size: 14px;">
+        <img src="img/EU-flag_small-270x183.png" style="max-width: 50px;"> This project has received funding from <a href="https://www.eoscsecretariat.eu/funding-opportunities/COVID-19-Fast-Track-Funding" target="_blank">EOSC Secretariat</a>. EOSCsecretariat.eu has received funding from the European Union's Horizon Programme call H2020-INFRAEOSC-05-2018-2019, grant Agreement number 831644.
+    </div>
 </footer>
