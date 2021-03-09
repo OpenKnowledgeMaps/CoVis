@@ -16,10 +16,4 @@
         <span style="font-weight:bold;">Note:</span> the knowledge map is not optimized for mobile yet, you may encounter some rough edges.
 
     </div>
-
-    <script>
-        $(document).ready(function () {
-            $('.reload-button').addClass('mobile');
-        });
-    </script>
 <?php endif; ?>
