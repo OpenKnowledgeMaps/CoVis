@@ -6,6 +6,8 @@ include 'config.php';
 
 <head>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="./css/font-awesome.min.css">
     <?php
         $title = "COVID-19 Knowledge Map - CoVis";
         include 'head_covis.php'
