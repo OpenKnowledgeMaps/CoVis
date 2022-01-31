@@ -105,8 +105,7 @@ include 'config.php';
 
     </script>
     <script type="text/javascript" src="./js/data-config.js"></script>
-    <script type="text/javascript" src="<?php echo $HEADSTART_PATH ?>dist/headstart.js"></script>
-    <link type="text/css" rel="stylesheet" href="<?php echo $HEADSTART_PATH ?>dist/headstart.css"></link>
+    <?php include "./headstart/dist/headstart.php"; ?>
     <script>
 
             data_config.server_url = window.location.href.replace(/[^/]*$/, '') + "<?php echo $HEADSTART_PATH ?>server/";
