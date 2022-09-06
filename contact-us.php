@@ -12,7 +12,6 @@ include 'config.php';
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link type="text/css" rel="stylesheet" href="./css/menu.css">
         <link type="text/css" rel="stylesheet" href="./css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="./css/font-awesome.min.css">
         <script type="text/javascript" src="./lib/menu.js "></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
